@@ -18,7 +18,7 @@ Roger heeft maculadegeneratie. Hij kan steeds slechter zien en is nu op het punt
 12.30-13.30 | 1uur | Pauze. 
 13.30-15.00 | 1,5uur | Eerste javascript functies geprobeerd om annotaties aan een zin toe te voegen. Nu nog elke zin in een aparte p met een id. Doel is om iets te maken waarmee ik morgen mijn idee kan testen bij Roger.
 15.00-16.00 | 1uur | Voorbereiden Weekly Geek.
-16.00-16.10 | 10min | Checkout met [naam].
+16.00-16.10 | 10min | Checkout met Melvin.
 
 ### Wat heb ik vandaag geleerd?
 Ik heb geleerd hoe een keydown functie werkt en ben meer aan het leren over het gebruik van de screenreader.
