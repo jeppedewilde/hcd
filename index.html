@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./scripts/script.js" defer></script>
+    <title>Human Centered Design</title>
+</head>
+
+<body>
+    <h1>Welkom Roger</h1>
+
+    <h2>Filosofische Quotes voor Test 1</h2>
+
+    <h3>Pauzeer de screenreader en toets de letter a om een annotatie te maken. Succes!</h3>
+
+    <p id="quote-1" tabindex="0">
+        "Ik denk, dus ik ben." - René Descartes
+    </p>
+
+    <p id="quote-2" tabindex="0">
+        "De mens is veroordeeld tot vrijheid, omdat hij, eenmaal in de wereld geworpen, verantwoordelijk is voor alles
+        wat hij doet." - Jean-Paul Sartre
+    </p>
+
+    <p id="quote-3" tabindex="0">
+        "Ik weet maar één ding, en dat is dat ik niets weet." - Socrates
+    </p>
+
+    <p id="quote-4" tabindex="0">
+        "God is dood! En wij hebben hem gedood!" - Friedrich Nietzsche
+    </p>
+
+    <p id="quote-5" tabindex="0">
+        "Durf te denken! Heb de moed je eigen verstand te gebruiken." - Immanuel Kant
+    </p>
+
+    <p id="quote-6" tabindex="0">
+        "De mens is van nature een politiek dier." - Aristoteles
+    </p>
+
+    <p id="quote-7" tabindex="0">
+        "De menselijke geest is bij de geboorte een onbeschreven blad (tabula rasa)." - John Locke
+    </p>
+
+    <p id="quote-8" tabindex="0">
+        "De wereld is mijn voorstelling." - Arthur Schopenhauer
+    </p>
+
+    <p id="quote-9" tabindex="0">
+        "Vrede is niet de afwezigheid van oorlog, maar een deugd die voortkomt uit innerlijke kracht." - Baruch Spinoza
+    </p>
+
+    <p id="quote-10" tabindex="0">
+        "De filosofen hebben de wereld slechts verschillend geïnterpreteerd; het komt erop aan haar te veranderen." -
+        Karl Marx
+    </p>
+
+    <div id="screenreader-feedback" aria-live="polite"></div>
+
+    <div id="annotatie-formulier">
+        <h2>Nieuwe annotatie maken</h2>
+
+        <label for="input-annotatie">Jouw annotatie:</label>
+        <input type="text" id="input-annotatie">
+
+        <label for="input-concept">Concept:</label>
+        <input type="text" id="input-concept">
+
+        <label for="input-tag">Tag:</label>
+        <input type="text" id="input-tag">
+
+        <button id="opslaan-knop">Opslaan</button>
+    </div>
+
+    <div id="mijn-opgeslagen-annotaties">
+        <h2>Mijn Opgeslagen Annotaties</h2>
+        <div id="opgeslagen-lijst" aria-live="polite"></div>
+    </div>
+</body>
+
+</html>

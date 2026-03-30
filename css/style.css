@@ -1,0 +1,28 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(214, 219, 246);
+}
+
+#screenreader-feedback {
+    position: absolute;
+    left: -9999px;
+}
+
+#annotatie-formulier {
+    display: none;
+    background-color: antiquewhite;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+#mijn-opgeslagen-annotaties {
+    margin-top: 50px;
+    border-top: 2px solid #000;
+}
