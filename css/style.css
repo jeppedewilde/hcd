@@ -6,23 +6,107 @@
     padding: 0;
 }
 
-body {
-    background-color: rgb(214, 219, 246);
+    body {
+        font-family: system-ui, -apple-system, sans-serif;
+        background-color: #f4f6f9;
+        color: #333;
+        max-width: 800px;
+        margin: 40px auto;
+        padding: 0 20px;
+        line-height: 1.6;
+        transition: background-color 0.5s ease;
+    }
+
+    .modus-lezen {
+        background-color: #97c6f9;
+    }
+
+    .modus-annoteren {
+        background-color: #f9c797;
+    }
+
+    .modus-overzicht {
+        background-color: #99fc99;
+    }
+
+    h1, h2 {
+        color: #2c3e50;
+        border-bottom: 2px solid #ddd;
+        padding-bottom: 10px;
+        margin-top: 40px;
+    }
+
+    p[id^="quote-"] {
+        background: #ffffff;
+        padding: 15px 20px;
+        border-left: 5px solid #6c757d;
+        border-radius: 4px;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+        margin-bottom: 15px;
+        transition: all 0.2s ease;
+    }
+
+    p[id^="quote-"]:focus, 
+    .annotatie-kaart:focus,
+    input:focus {
+        outline: 4px solid #ff9900;
+        background-color: #fff9e6;
+    }
+
+    #annotatie-formulier {
+        display: none;
+        background: #ffffff;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    }
+
+    input[type="text"] {
+        width: 100%;
+        padding: 10px;
+        margin-top: 5px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        font-size: 16px;
+    }
+
+    button {
+        background-color: #007bff;
+        color: white;
+        padding: 12px 20px;
+        border: none;
+        border-radius: 4px;
+        font-size: 16px;
+        cursor: pointer;
+        font-weight: bold;
+        margin-top: 10px;
+    }
+
+    button:hover {
+        background-color: #0056b3;
+    }
+
+.annotatie-kaart {
+    background-color: #f8f9fa;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 15px;
+    font-family: sans-serif;
 }
 
-#screenreader-feedback {
-    position: absolute;
-    left: -9999px;
+.quote-tekst {
+    font-style: italic;
+    font-size: 1.1em;
+    margin-bottom: 15px;
+    color: #333;
 }
 
-#annotatie-formulier {
-    display: none;
-    background-color: antiquewhite;
-    padding: 20px;
-    margin-top: 20px;
-}
-
-#mijn-opgeslagen-annotaties {
-    margin-top: 50px;
-    border-top: 2px solid #000;
+.annotatie-details {
+    display: flex;
+    justify-content: space-between;
+    background-color: #e9ecef;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 0.9em;
 }

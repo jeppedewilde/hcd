@@ -28,8 +28,8 @@ Morgen ga ik verder met het uitwerken van mijn eerste iteratie. Daarvoor wil ik 
 
 ## Dinsdag 31 maart
 ### Wat heb ik vandaag gedaan? / Hoelang heb ik daarover gedaan?
-09.30-10.30 | 1uur | Intro van de dag
-10.30-00.00 | x | xxx
+09.30-10.15 | 45min | Weekly Geek wooclap quiz
+10.15-00.00 | x | xxx
 12.30-13.30 | 1uur | Pauze. 
 13.30-00.00 | x | xxx
 16.00-16.10 | 10min | Checkout met [naam].
