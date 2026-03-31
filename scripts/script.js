@@ -1,7 +1,8 @@
 console.log('Hello world');
 
 // Huidige quote onthouden
-let actieveQuoteTekst = "";
+// let actieveQuoteTekst = "";
+// let actieveQuoteElement;
 
 // Een lege lijst (Array) waar we alle annotaties in gaan stoppen
 let alleAnnotaties = [];
@@ -15,61 +16,124 @@ document.addEventListener("keydown", function (event) {
 
     let ingedrukteToets = event.key.toLowerCase();
 
+    // // a
+    // if (ingedrukteToets === "a") {
+
+    //     // Zorgt ervoor dat er geen a wordt getypt in het input field
+    //     event.preventDefault();
+
+    //     // Sla huidige tekst op
+    //     let huidigeLocatie = document.activeElement;
+    //     actieveQuoteTekst = huidigeLocatie.innerText;
+    //     actieveQuoteElement = huidigeLocatie;
+
+    //     // Formulier laten zien
+    //     document.getElementById("annotatie-formulier").style.display = "block";
+
+    //     // Focus in eerste input field
+    //     document.getElementById("input-annotatie").focus();
+
+    //     vertelAanScreenreader("Formulier geopend. Typ je annotatie.");
+    // }
     // a
     if (ingedrukteToets === "a") {
-
-        // Zorgt ervoor dat er geen a wordt getypt in het input field
         event.preventDefault();
 
-        // Sla huidige tekst op
         let huidigeLocatie = document.activeElement;
-        actieveQuoteTekst = huidigeLocatie.innerText;
+        let formulier = document.getElementById("annotatie-formulier");
 
-        // Formulier laten zien
-        document.getElementById("annotatie-formulier").style.display = "block";
+        // DE MAGIE: Plak het ID van de huidige quote als een onzichtbare data-tag op het formulier
+        formulier.dataset.gekoppeldeQuoteId = huidigeLocatie.id;
 
-        // Focus in eerste input field
+        // Formulier laten zien en focus verplaatsen
+        formulier.style.display = "block";
         document.getElementById("input-annotatie").focus();
 
         vertelAanScreenreader("Formulier geopend. Typ je annotatie.");
     }
 });
 
+// // Bij klikken opslaan knop
+// document.getElementById("opslaan-knop").addEventListener("click", function() {
+
+//     // Haal op wat Roger heeft getypt
+//     let inputAnnotatie = document.getElementById("input-annotatie").value;
+//     let inputConcept = document.getElementById("input-concept").value;
+//     let inputTag = document.getElementById("input-tag").value;
+
+//     // Maak een pakketje van alle data
+//     let nieuweNotitie = {
+//         quote: actieveQuoteTekst,
+//         annotatie: inputAnnotatie,
+//         concept: inputConcept,
+//         tag: inputTag
+//     };
+
+//     // Voeg dit pakketje toe aan de lijst van alle annotaties
+//     alleAnnotaties.push(nieuweNotitie);
+
+//     // Sla de hele lijst op in localStorage
+//     localStorage.setItem("roger_annotaties", JSON.stringify(alleAnnotaties));
+
+//     // Zet hem op het scherm
+//     zetOpScherm(nieuweNotitie);
+
+//     // Maak de invulvakjes weer leeg
+//     document.getElementById("input-annotatie").value = "";
+//     document.getElementById("input-concept").value = "";
+//     document.getElementById("input-tag").value = "";
+
+//     // Verberg het formulier weer
+//     document.getElementById("annotatie-formulier").style.display = "none";
+
+//     // Geef audio-feedback
+//     vertelAanScreenreader("Opgeslagen. Je kunt verder lezen.");
+
+//     // Zet de focus weer terug op de quote waar hij was, zodat hij meteen verder kan lezen
+//     setTimeout(function() {
+//         if (actieveQuoteElement) {
+//             actieveQuoteElement.focus();
+//         }
+//     }, 10);
+// });
+
 // Bij klikken opslaan knop
 document.getElementById("opslaan-knop").addEventListener("click", function() {
-    
-    // 1. Haal op wat Roger heeft getypt
-    let inputAnnotatie = document.getElementById("input-annotatie").value;
-    let inputConcept = document.getElementById("input-concept").value;
-    let inputTag = document.getElementById("input-tag").value;
 
-    // 2. Maak een 'pakketje' (Object) van deze specifieke annotatie
+    let formulier = document.getElementById("annotatie-formulier");
+    
+    // 1. Lees het onzichtbare stickertje uit om te weten bij welke quote we hoorden
+    let opgeslagenQuoteId = formulier.dataset.gekoppeldeQuoteId;
+    
+    // 2. Zoek de originele quote in de HTML op basis van dat ID
+    let origineleQuote = document.getElementById(opgeslagenQuoteId);
+
+    // 3. Maak het pakketje
     let nieuweNotitie = {
-        quote: actieveQuoteTekst,
-        annotatie: inputAnnotatie,
-        concept: inputConcept,
-        tag: inputTag
+        quote: origineleQuote.innerText, // We pakken de tekst direct uit de originele quote
+        annotatie: document.getElementById("input-annotatie").value,
+        concept: document.getElementById("input-concept").value,
+        tag: document.getElementById("input-tag").value
     };
 
-    // 3. Voeg dit pakketje toe aan onze grote lijst
+    // 4. Voeg toe, sla op en zet op scherm
     alleAnnotaties.push(nieuweNotitie);
-
-    // 4. Sla de hele lijst op in localStorage (we vouwen het plat met JSON.stringify)
     localStorage.setItem("roger_annotaties", JSON.stringify(alleAnnotaties));
-
-    // 5. Zet hem op het scherm met onze nieuwe slimme functie
     zetOpScherm(nieuweNotitie);
 
-    // 6. Maak de invulvakjes weer leeg
+    // 5. Maak de invulvakjes weer leeg
     document.getElementById("input-annotatie").value = "";
     document.getElementById("input-concept").value = "";
     document.getElementById("input-tag").value = "";
 
-    // 7. Verberg het formulier weer
-    document.getElementById("annotatie-formulier").style.display = "none";
-
-    // 8. Geef audio-feedback
+    // 6. Verberg het formulier weer
+    formulier.style.display = "none";
     vertelAanScreenreader("Opgeslagen. Je kunt verder lezen.");
+
+    // 7. Zet de focus SUPER MAKKELIJK terug, we hebben de originele quote immers al!
+    setTimeout(function() {
+        origineleQuote.focus();
+    }, 10);
 });
 
 // Functie voor de onzichtbare audio-feedback
