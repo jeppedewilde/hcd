@@ -28,7 +28,7 @@ Morgen ga ik verder met het uitwerken van mijn eerste iteratie. Daarvoor wil ik 
 
 ## Dinsdag 31 maart
 ### Wat heb ik vandaag gedaan? / Hoelang heb ik daarover gedaan?
-09.30-10.15 | 45min | Weekly Geek wooclap quiz
+09.30-10.15 | 45min | Weekly Geek wooclap quiz.
 10.15-12.00 | 1uur 45min | Wat styling toegevoegd (werkt wat fijner), achtergrond kleur toegevoegd om te testen of Roger dat ziet en daar iets aan heeft, local storage toegevoegd zodat annotaties opgeslagen worden, onderzoek gedaan naar focus van het systeem vs focus van voice over.
 12.00-12.30 | 30min | Pauze. 
 12.30-14.00 | 1,5uur | Gewerkt aan hoe de focus verspringt na het maken van een annotatie en de flow van de test, meer testvragen bedacht, voorbereid op de test.
