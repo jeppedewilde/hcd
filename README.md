@@ -35,10 +35,10 @@ Morgen ga ik verder met het uitwerken van mijn eerste iteratie. Daarvoor wil ik 
 14.00-16.00 | 2uur | Testen met Roger.
 
 ### Wat heb ik vandaag geleerd?
-?
+Ik heb mij vandaag iets meer geprobeerd te verdiepen in de screenreader en hoe dat in zijn werking gaat. Daarnaast heb ik geleerd hoe local storage werkt.
 
 ### Wat ga ik de volgende keer doen?
-?
+De volgende keer ga ik een nieuwe iteratie van mijn prototype maken waarin ik de inzichten uit de eerste test mee ga nemen.
 
 
 # Week 2
@@ -112,3 +112,7 @@ Morgen ga ik verder met het uitwerken van mijn eerste iteratie. Daarvoor wil ik 
 
 ### Wat heb ik vandaag geleerd?
 ### Wat ga ik morgen doen?
+
+
+## Bronnenlijst
+Keydown function: https://developer.mozilla.org/en-US/docs/Web/API/Element/keydown_event & https://www.w3schools.com/jsref//event_onkeydown.asp & https://www.geeksforgeeks.org/html/html-onkeydown-event-attribute/ & https://stackoverflow.com/questions/46474961/firing-a-function-with-onkeydown-event & https://developer.mozilla.org/en-US/docs/Web/API/KeyboardEvent/key 
