@@ -1,112 +1,247 @@
-*,
-*::before,
-*::after {
+*, *::before, *::after {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
-    body {
-        font-family: system-ui, -apple-system, sans-serif;
-        background-color: #f4f6f9;
-        color: #333;
-        max-width: 800px;
-        margin: 40px auto;
-        padding: 0 20px;
-        line-height: 1.6;
-        transition: background-color 0.5s ease;
-    }
+body {
+    font-family: 'Calibri', 'Segoe UI', Arial, sans-serif;
+    background-color: #121212;
+    color: #e0e0e0;
+    padding: 20px;
+    transition: background-color 0.5s ease;
+}
 
-    .modus-lezen {
-        background-color: #97c6f9;
-    }
+.word-interface {
+    max-width: 1200px;
+    margin: 0 auto;
+}
 
-    .modus-annoteren {
-        background-color: #f9c797;
-    }
+.document-pagina {
+    background-color: #1e1e1e;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.8);
+    padding: 50px 70px;
+    min-height: 800px;
+}
 
-    .modus-overzicht {
-        background-color: #99fc99;
-    }
+h1, h2 {
+    color: #79a6e6;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #444;
+    padding-bottom: 5px;
+}
 
-    h1, h2 {
-        color: #2c3e50;
-        border-bottom: 2px solid #ddd;
-        padding-bottom: 10px;
-        margin-top: 40px;
-    }
+.titel-regel {
+    display: flex;
+    gap: 40px;
+    align-items: flex-end;
+    margin-bottom: 10px;
+}
 
-    p[id^="quote-"] {
-        background: #ffffff;
-        padding: 15px 20px;
-        border-left: 5px solid #6c757d;
-        border-radius: 4px;
-        box-shadow: 0 2px 4px rgba(0,0,0,0.05);
-        margin-bottom: 15px;
-        transition: all 0.2s ease;
-    }
+.hoofd-titel {
+    flex: 2;
+    margin-bottom: 0;
+}
 
-    p[id^="quote-"]:focus, 
-    .annotatie-kaart:focus,
-    input:focus {
-        outline: 4px solid #ff9900;
-        background-color: #fff9e6;
-    }
+.marge-titel {
+    flex: 1;
+    color: #999;
+    font-size: 1.2em;
+    margin-bottom: 0;
+}
 
-    #annotatie-formulier {
-        display: none;
-        background: #ffffff;
-        border: 1px solid #ddd;
-        border-radius: 8px;
-        box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-    }
+.quote-regel {
+    display: flex;
+    gap: 40px;
+    align-items: flex-start;
+    margin-bottom: 20px;
+    border-bottom: 1px dashed #444; 
+    padding-bottom: 20px;
+}
 
-    input[type="text"] {
-        width: 100%;
-        padding: 10px;
-        margin-top: 5px;
-        border: 1px solid #ccc;
-        border-radius: 4px;
-        font-size: 16px;
-    }
+.filosofie-quote {
+    flex: 2;
+    font-size: 1.1em;
+    line-height: 1.8;
+    padding: 10px;
+    border-radius: 4px;
+    border-left: 10px solid transparent;
+    transition: all 0.2s ease;
+}
 
-    button {
-        background-color: #007bff;
-        color: white;
-        padding: 12px 20px;
-        border: none;
-        border-radius: 4px;
-        font-size: 16px;
-        cursor: pointer;
-        font-weight: bold;
-        margin-top: 10px;
-    }
+.marge-notities {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: relative;
+}
 
-    button:hover {
-        background-color: #0056b3;
-    }
+.filosofie-quote:focus, 
+.annotatie-kaart:focus,
+.marge-notities:focus,
+.filosofie-quote.actieve-quote,
+.quote-regel:has(.annotatie-kaart:focus) .filosofie-quote,
+.quote-regel:has(.marge-notities:focus) .filosofie-quote {
+    background-color: #000000;
+    color: #ffee00;
+    border-left: 10px solid #ffee00;
+    transform: scale(1.02);
+    box-shadow: none;
+    transition: all 0.2s ease;
+}
+
+.annotatie-kaart:focus strong,
+.quote-regel:has(.annotatie-kaart:focus) .annotatie-kaart strong {
+    color: #ffee00;
+}
+
+.filosofie-quote:focus, 
+.annotatie-kaart:focus {
+    outline: 4px solid #ffee00;
+    outline-offset: 4px;
+    z-index: 10; 
+}
+
+.marge-notities:focus {
+    outline: 4px dashed #ffee00;
+    outline-offset: 4px;
+    z-index: 10;
+}
+
+.filosofie-quote.actieve-quote,
+.quote-regel:has(.annotatie-kaart:focus) .filosofie-quote,
+.quote-regel:has(.marge-notities:focus) .filosofie-quote {
+    background-color: #ffee00;
+    color: #000000;
+    border-left: 10px solid #000000;
+    transform: scale(1.02);
+    box-shadow: 4px 4px 0px #000000;
+}
+
+#annotatie-formulier {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 50;
+    background: #2a2a2a;
+    border: 2px solid #79a6e6;
+    border-radius: 4px;
+    padding: 15px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #1e1e1e;
+    color: #e0e0e0;
+    border: 1px solid #666;
+    border-radius: 4px;
+    font-size: 16px;
+    font-family: inherit;
+    resize: vertical;
+}
+
+textarea:focus {
+    outline: none;
+    background-color: #000000;
+    color: #ffee00;
+    border-color: #ffee00;
+}
+
+button {
+    background-color: #79a6e6;
+    color: #000000;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 15px;
+    width: 100%;
+}
 
 .annotatie-kaart {
-    background-color: #f8f9fa;
-    border: 1px solid #ddd;
-    border-radius: 8px;
+    background-color: #2a2a2a;
+    border-left: 4px solid #79a6e6;
+    color: #e0e0e0;
     padding: 15px;
-    margin-bottom: 15px;
-    font-family: sans-serif;
-}
-
-.quote-tekst {
-    font-style: italic;
-    font-size: 1.1em;
-    margin-bottom: 15px;
-    color: #333;
-}
-
-.annotatie-details {
-    display: flex;
-    justify-content: space-between;
-    background-color: #e9ecef;
-    padding: 10px;
-    border-radius: 5px;
     font-size: 0.9em;
+    border-radius: 4px;
+}
+
+.sr-only {
+    position: absolute;
+    left: -9999px;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+}
+
+.verborgen {
+    display: none !important;
+}
+
+.formulier-hint {
+    font-size: 0.8em;
+    color: #999;
+    margin-top: 10px;
+}
+
+/* --- Instructie Blok --- */
+#instructie-blok {
+    background-color: #2a2a2a;
+    border-left: 4px solid #79a6e6;
+    padding: 20px;
+    margin-bottom: 40px;
+    border-radius: 4px;
+    color: #e0e0e0;
+}
+
+#instructie-blok h2 {
+    font-size: 1.2em;
+    margin-bottom: 15px;
+    border-bottom: none;
+    padding-bottom: 0;
+    color: #79a6e6;
+}
+
+.sneltoets-lijst {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.sneltoets-lijst li {
+    margin-bottom: 5px;
+    font-size: 1.1em;
+    line-height: 1.5;
+    padding: 8px 12px;
+    border-radius: 4px;
+    border-left: 10px solid transparent; 
+    transition: all 0.2s ease;
+}
+
+.sneltoets-lijst strong {
+    color: #79a6e6;
+    display: inline-block;
+    min-width: 130px; 
+}
+
+.sneltoets-lijst li:focus {
+    outline: 4px solid #ffee00;
+    outline-offset: 2px;
+    background-color: #000000 !important;
+    color: #ffee00 !important;
+    border-left: 10px solid #ffee00;
+    transform: scale(1.02);
+    position: relative; 
+    z-index: 10;
+}
+
+.sneltoets-lijst li:focus strong {
+    color: #ffee00 !important;
 }
