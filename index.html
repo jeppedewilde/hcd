@@ -10,120 +10,120 @@
 </head>
 
 <body>
-    <h1 tabindex="0">Welkom Roger</h1>
-
-    <div id="instructie-blok" aria-label="Instructies voor bediening.">
-        <h2>Sneltoetsen</h2>
-        <ul class="sneltoets-lijst">
-            <li tabindex="0"><strong>Tab:</strong> Volgende quote of annotatie</li>
-            <li tabindex="0"><strong>Shift + Tab:</strong> Vorige quote of annotatie</li>
-            <li tabindex="0"><strong>Spatiebalk:</strong> Switchen tussen teksten en annotaties</li>
-            <li tabindex="0"><strong>A:</strong> Annotatie maken of bewerken</li>
-            <li tabindex="0"><strong>Enter:</strong> Annotatie opslaan</li>
-        </ul>
-    </div>
-
-    <div id="screenreader-feedback" class="sr-only" aria-live="polite"></div>
-
-    <div class="word-interface">
-
-        <div class="document-pagina">
-            <div class="titel-regel">
-                <h2 class="hoofd-titel" tabindex="0">Filosofische Quotes</h2>
-                <h2 class="marge-titel">Annotaties</h2>
-            </div>
-
-            <div class="quote-regel">
-                <p id="quote-1" class="filosofie-quote" tabindex="0" role="group" aria-roledescription="quote">
-                    "Ik denk, dus ik ben." - René Descartes
-                </p>
-                <div class="marge-notities" id="marge-quote-1" aria-live="polite"></div>
-            </div>
-
-            <div class="quote-regel">
-                <p id="quote-2" class="filosofie-quote" tabindex="0" role="group" aria-roledescription="quote">
-                    "De mens is veroordeeld tot vrijheid, omdat hij, eenmaal in de wereld geworpen, verantwoordelijk is
-                    voor alles wat hij doet." - Jean-Paul Sartre
-                </p>
-                <div class="marge-notities" id="marge-quote-2" aria-live="polite"></div>
-            </div>
-
-            <div class="quote-regel">
-                <p id="quote-3" class="filosofie-quote" tabindex="0" role="group" aria-roledescription="quote">
-                    "Ik weet maar één ding, en dat is dat ik niets weet." - Socrates
-                </p>
-                <div class="marge-notities" id="marge-quote-3" aria-live="polite"></div>
-            </div>
-
-            <div class="quote-regel">
-                <p id="quote-4" class="filosofie-quote" tabindex="0" role="group" aria-roledescription="quote">
-                    "God is dood! En wij hebben hem gedood!" - Friedrich Nietzsche
-                </p>
-                <div class="marge-notities" id="marge-quote-4" aria-live="polite"></div>
-            </div>
-
-            <div class="quote-regel">
-                <p id="quote-5" class="filosofie-quote" tabindex="0" role="group" aria-roledescription="quote">
-                    "Durf te denken! Heb de moed je eigen verstand te gebruiken." - Immanuel Kant
-                </p>
-                <div class="marge-notities" id="marge-quote-5" aria-live="polite"></div>
-            </div>
-
-            <div class="quote-regel">
-                <p id="quote-6" class="filosofie-quote" tabindex="0" role="group" aria-roledescription="quote">
-                    "De mens is van nature een politiek dier." - Aristoteles
-                </p>
-                <div class="marge-notities" id="marge-quote-6" aria-live="polite"></div>
-            </div>
-
-            <div class="quote-regel">
-                <p id="quote-7" class="filosofie-quote" tabindex="0" role="group" aria-roledescription="quote">
-                    "De menselijke geest is bij de geboorte een onbeschreven blad (tabula rasa)." - John Locke
-                </p>
-                <div class="marge-notities" id="marge-quote-7" aria-live="polite"></div>
-            </div>
-
-            <div class="quote-regel">
-                <p id="quote-8" class="filosofie-quote" tabindex="0" role="group" aria-roledescription="quote">
-                    "De wereld is mijn voorstelling." - Arthur Schopenhauer
-                </p>
-                <div class="marge-notities" id="marge-quote-8" aria-live="polite"></div>
-            </div>
-
-            <div class="quote-regel">
-                <p id="quote-9" class="filosofie-quote" tabindex="0" role="group" aria-roledescription="quote">
-                    "Vrede is niet de afwezigheid van oorlog, maar een deugd die voortkomt uit innerlijke kracht." -
-                    Baruch
-                    Spinoza
-                </p>
-                <div class="marge-notities" id="marge-quote-9" aria-live="polite"></div>
-            </div>
-
-            <div class="quote-regel">
-                <p id="quote-10" class="filosofie-quote" tabindex="0" role="group" aria-roledescription="quote">
-                    "De filosofen hebben de wereld slechts verschillend geïnterpreteerd; het komt erop aan haar te
-                    veranderen." - Karl Marx
-                </p>
-                <div class="marge-notities" id="marge-quote-10" aria-live="polite"></div>
-            </div>
-
+    <div id="sneltoets-configurator">
+        <h1 tabindex="0">Welkom Roger</h1>
+        
+        <div id="stap-1-blok" tabindex="0">
+            <span>Stap 1: Welke toets wil je gebruiken om een <strong>notitie te maken of bewerken</strong>?</span>
+            <span class="dikgedrukt-blok">Druk nu op jouw gewenste toets.</span>
         </div>
 
-        <div class="zijbalk">
-
-            <div id="annotatie-formulier" class="verborgen">
-                <h2>Nieuwe annotatie</h2>
-                <label for="input-annotatie">Wat is je aantekening?</label>
-
-                <textarea id="input-annotatie" rows="5"></textarea>
-
-                <button id="opslaan-knop">Opslaan</button>
-                <p class="formulier-hint">Druk op Enter om direct op te slaan en verder te lezen.</p>
-            </div>
-
+        <div id="stap-2-blok" tabindex="-1" class="verborgen">
+            <span>Stap 2: Welke toets wil je gebruiken om te <strong>wisselen tussen teksten en notities</strong>?</span>
+            <span class="dikgedrukt-blok">Druk nu op jouw gewenste toets.</span>
         </div>
 
+        <div id="stap-3-blok" tabindex="-1" class="verborgen">
+            <span>Alles is succesvol ingesteld!</span>
+            <span class="dikgedrukt-blok">Druk op Enter om de tekst te openen.</span>
+        </div>
+
+        <div id="config-status-blok" class="status-bericht verborgen" aria-live="assertive" role="alert">
+            <span id="actie-feedback"></span>
+        </div>
     </div>
+
+    <main id="hoofd-applicatie" class="verborgen">
+        <div id="screenreader-feedback" class="sr-only" aria-live="assertive"></div>
+
+        <div class="word-interface">
+            <div class="document-pagina">
+                <div class="titel-regel">
+                    <h2 class="hoofd-titel" tabindex="0">Filosofische Quotes</h2>
+                    <h2 class="marge-titel">Notities</h2>
+                </div>
+
+                <div class="quote-regel">
+                    <p id="quote-1" class="filosofie-quote" tabindex="0" role="group" aria-roledescription="quote">
+                        "Ik denk, dus ik ben." - René Descartes
+                    </p>
+                    <div class="marge-notities" id="marge-quote-1" aria-live="polite"></div>
+                </div>
+
+                <div class="quote-regel">
+                    <p id="quote-2" class="filosofie-quote" tabindex="0" role="group" aria-roledescription="quote">
+                        "De mens is veroordeeld tot vrijheid, omdat hij, eenmaal in de wereld geworpen, verantwoordelijk is voor alles wat hij doet." - Jean-Paul Sartre
+                    </p>
+                    <div class="marge-notities" id="marge-quote-2" aria-live="polite"></div>
+                </div>
+
+                <div class="quote-regel">
+                    <p id="quote-3" class="filosofie-quote" tabindex="0" role="group" aria-roledescription="quote">
+                        "Ik weet maar één ding, en dat is dat ik niets weet." - Socrates
+                    </p>
+                    <div class="marge-notities" id="marge-quote-3" aria-live="polite"></div>
+                </div>
+
+                <div class="quote-regel">
+                    <p id="quote-4" class="filosofie-quote" tabindex="0" role="group" aria-roledescription="quote">
+                        "God is dood! En wij hebben hem gedood!" - Friedrich Nietzsche
+                    </p>
+                    <div class="marge-notities" id="marge-quote-4" aria-live="polite"></div>
+                </div>
+
+                <div class="quote-regel">
+                    <p id="quote-5" class="filosofie-quote" tabindex="0" role="group" aria-roledescription="quote">
+                        "Durf te denken! Heb de moed je eigen verstand te gebruiken." - Immanuel Kant
+                    </p>
+                    <div class="marge-notities" id="marge-quote-5" aria-live="polite"></div>
+                </div>
+
+                <div class="quote-regel">
+                    <p id="quote-6" class="filosofie-quote" tabindex="0" role="group" aria-roledescription="quote">
+                        "De mens is van nature een politiek dier." - Aristoteles
+                    </p>
+                    <div class="marge-notities" id="marge-quote-6" aria-live="polite"></div>
+                </div>
+
+                <div class="quote-regel">
+                    <p id="quote-7" class="filosofie-quote" tabindex="0" role="group" aria-roledescription="quote">
+                        "De menselijke geest is bij de geboorte een onbeschreven blad (tabula rasa)." - John Locke
+                    </p>
+                    <div class="marge-notities" id="marge-quote-7" aria-live="polite"></div>
+                </div>
+
+                <div class="quote-regel">
+                    <p id="quote-8" class="filosofie-quote" tabindex="0" role="group" aria-roledescription="quote">
+                        "De wereld is mijn voorstelling." - Arthur Schopenhauer
+                    </p>
+                    <div class="marge-notities" id="marge-quote-8" aria-live="polite"></div>
+                </div>
+
+                <div class="quote-regel">
+                    <p id="quote-9" class="filosofie-quote" tabindex="0" role="group" aria-roledescription="quote">
+                        "Vrede is niet de afwezigheid van oorlog, maar een deugd die voortkomt uit innerlijke kracht." - Baruch Spinoza
+                    </p>
+                    <div class="marge-notities" id="marge-quote-9" aria-live="polite"></div>
+                </div>
+
+                <div class="quote-regel">
+                    <p id="quote-10" class="filosofie-quote" tabindex="0" role="group" aria-roledescription="quote">
+                        "De filosofen hebben de wereld slechts verschillend geïnterpreteerd; het komt erop aan haar te veranderen." - Karl Marx
+                    </p>
+                    <div class="marge-notities" id="marge-quote-10" aria-live="polite"></div>
+                </div>
+            </div>
+
+            <div class="zijbalk">
+                <div id="notitie-formulier" class="verborgen">
+                    <h2>Nieuwe notitie</h2>
+                    <label for="input-notitie">Wat is je notitie?</label>
+                    <textarea id="input-notitie" rows="5"></textarea>
+                    <button id="opslaan-knop">Opslaan (Enter)</button>
+                </div>
+            </div>
+        </div>
+    </main>
 </body>
 
 </html>
