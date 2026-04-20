@@ -42,67 +42,66 @@ De volgende keer ga ik een nieuwe iteratie van mijn prototype maken waarin ik de
 
 
 # Week 2
-## Maandag 
+## Maandag 6 april
 ### Wat heb ik vandaag gedaan? / Hoelang heb ik daarover gedaan?
 09.30-10.30 | 1uur | Intro van de dag
-10.30-00.00 | x | xxx
+10.30-12.30 | 2uur | Design verbeteringen: 2 kolommen, dark mode, geel/zwarte focus
 12.30-13.30 | 1uur | Pauze. 
-13.30-00.00 | x | xxx
+13.30-15.00 | 1,5uur | Uitleg over sneltoetsen aan het begin
 15.00-16.00 | 1uur | Voorbereiden Weekly Geek.
-16.00-16.10 | 10min | Checkout met [naam].
+16.00-16.10 | 10min | Checkout
 
 ### Wat heb ik vandaag geleerd?
-### Wat ga ik morgen doen?
+Ik heb vandaag vooral aan de layout/styling gewerkt.
 
-## Dinsdag 
+### Wat ga ik morgen doen?
+Morgen ga zorgen dat de navigatie beter werkt, zowel in de kolommen zelf als het wisselen daartussen & uitleg over sneltoetsenbediening afmaken.
+
+## Dinsdag 7 april
 ### Wat heb ik vandaag gedaan? / Hoelang heb ik daarover gedaan?
 09.30-10.30 | 1uur | Intro van de dag
-10.30-00.00 | x | xxx
+10.30-12.30 | x | Switchen tussen kolommen en navigeren verbeteren
 12.30-13.30 | 1uur | Pauze. 
-13.30-00.00 | x | xxx
-16.00-16.10 | 10min | Checkout met [naam].
+13.30-14.00 | 30min | Laatste dingetjes
+14.00-16.00 | 2uur | Test 2 met Roger
 
 ### Wat heb ik vandaag geleerd?
-### Wat ga ik morgen doen?
+Vandaag heb ik vooral kleine dingetjes gedaan en niet echt veel nieuwe dingen gedaan.
+
+### Wat ga ik de volgende keer doen?
+Mijn prototype weer verbeteren op basis van de testresultaten.
 
 # Week 3
-## Maandag 
+## Maandag 13 april
 ### Wat heb ik vandaag gedaan? / Hoelang heb ik daarover gedaan?
-09.30-10.30 | 1uur | Intro van de dag
-10.30-00.00 | x | xxx
-12.30-13.30 | 1uur | Pauze. 
-13.30-00.00 | x | xxx
-15.00-16.00 | 1uur | Voorbereiden Weekly Geek.
-16.00-16.10 | 10min | Checkout met [naam].
+- 
 
 ### Wat heb ik vandaag geleerd?
 ### Wat ga ik morgen doen?
 
-## Dinsdag 
+## Dinsdag 14 april
 ### Wat heb ik vandaag gedaan? / Hoelang heb ik daarover gedaan?
-09.30-10.30 | 1uur | Intro van de dag
-10.30-00.00 | x | xxx
-12.30-13.30 | 1uur | Pauze. 
-13.30-00.00 | x | xxx
-16.00-16.10 | 10min | Checkout met [naam].
+- 
+- Test 3 met Roger (2uur)
 
 ### Wat heb ik vandaag geleerd?
 ### Wat ga ik morgen doen?
 
 # Week 4
-## Maandag 
+## Maandag 20 april
 ### Wat heb ik vandaag gedaan? / Hoelang heb ik daarover gedaan?
 09.30-10.30 | 1uur | Intro van de dag
-10.30-00.00 | x | xxx
+10.30-11.30 | 1uur | Betere comments bij mijn js code zetten
+11.30-12.30 | 1uur | Uitspraak Roger aangepast in voice over programma, plan gemaakt van wat ik wil aanpassen voor de laatste test,
 12.30-13.30 | 1uur | Pauze. 
-13.30-00.00 | x | xxx
+13.30-15.00 | 1,5uur | Meer auditieve uitleg toegevoegd, aanpassingen icoon, leuke feedback zinnen & confetti toegevoegd, veel bug fixes.
 15.00-16.00 | 1uur | Voorbereiden Weekly Geek.
 16.00-16.10 | 10min | Checkout met [naam].
 
 ### Wat heb ik vandaag geleerd?
 ### Wat ga ik morgen doen?
 
-## Dinsdag 
+## Dinsdag 21 april
 ### Wat heb ik vandaag gedaan? / Hoelang heb ik daarover gedaan?
 09.30-10.30 | 1uur | Intro van de dag
 10.30-00.00 | x | xxx

@@ -13,6 +13,9 @@
     <div id="sneltoets-configurator">
         <h1 tabindex="0">Welkom Roger</h1>
         
+        <!-- <div tabindex="0" id="start-instructie" class="sr-only" aria-live="polite"></div> -->
+        <p tabindex="0" class="sr-only">We gaan beginnen met het instellen van de sneltoetsen. Gebruik Tab om te navigeren.</p>
+
         <div id="stap-1-blok" tabindex="0">
             <span>Stap 1: Welke toets wil je gebruiken om een <strong>notitie te maken of bewerken</strong>?</span>
             <span class="dikgedrukt-blok">Druk nu op jouw gewenste toets.</span>
@@ -117,6 +120,7 @@
             <div class="zijbalk">
                 <div id="notitie-formulier" class="verborgen">
                     <h2>Nieuwe notitie</h2>
+                    <p class="formulier-uitleg">Typ nu uw notitie en sla op met Enter.</p>
                     <label for="input-notitie">Wat is je notitie?</label>
                     <textarea id="input-notitie" rows="5"></textarea>
                     <button id="opslaan-knop">Opslaan (Enter)</button>
@@ -124,6 +128,8 @@
             </div>
         </div>
     </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/@tsparticles/confetti@3.9.1/tsparticles.confetti.bundle.min.js"></script>
 </body>
 
 </html>

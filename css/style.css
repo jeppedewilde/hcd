@@ -107,6 +107,10 @@ h1, h2 {
     padding: 30px;
     line-height: 1.4;
     box-shadow: 6px 6px 0px #000000;
+
+    & .notitie-icoon {
+        filter: invert(70%) sepia(18%) saturate(1219%) hue-rotate(182deg) brightness(96%) contrast(92%);
+    }
 }
 
 .notitie-kaart:focus,
@@ -198,7 +202,6 @@ h1, h2 {
     border-radius: 4px;
 }
 
-/* --- Sneltoets Configurator --- */
 #sneltoets-configurator {
     display: flex;
     flex-direction: column;
@@ -206,6 +209,7 @@ h1, h2 {
     align-items: center;
     min-height: 80vh;
     text-align: center;
+    color: #ffee00;
 }
 
 #stap-1-blok, #stap-2-blok, #stap-3-blok {
@@ -235,8 +239,8 @@ h1, h2 {
 .sr-only {
     position: absolute;
     left: -9999px;
-    width: 1px;
-    height: 1px;
+    width: 0.1px;
+    height: 0.1px;
     overflow: hidden;
 }
 
@@ -245,9 +249,16 @@ h1, h2 {
 }
 
 .notitie-icoon {
-    height: 1em;
+    height: 1.5em;
     width: auto;
-    margin-right: 10px;
+    margin-right: 12px;
     vertical-align: middle;
-    filter: invert(15%) sepia(87%) saturate(5432%) hue-rotate(358deg) brightness(103%) contrast(114%);
+    filter: brightness(0) saturate(100%) invert(88%) sepia(91%) saturate(3934%) hue-rotate(347deg) brightness(100%) contrast(110%);
+}
+
+.formulier-uitleg {
+    font-size: 1.4em;
+    color: #ffee00;
+    margin-bottom: 15px;
+    font-weight: bold;
 }
