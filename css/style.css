@@ -107,10 +107,6 @@ h1, h2 {
     padding: 30px;
     line-height: 1.4;
     box-shadow: 6px 6px 0px #000000;
-
-    & .notitie-icoon {
-        filter: invert(70%) sepia(18%) saturate(1219%) hue-rotate(182deg) brightness(96%) contrast(92%);
-    }
 }
 
 .notitie-kaart:focus,
@@ -225,13 +221,17 @@ h1, h2 {
 }
 
 .status-bericht {
-    margin-top: 1rem;
+    position: absolute;
+    bottom: 35%;
+    left: 50%;
+    transform: translateX(-50%);
     font-size: 1.5rem;
     background-color: #000;
     color: #ffee00;
     padding: 1.5rem;
     border: 4px solid #ffee00;
     border-radius: 4px;
+    width: 90%;
     max-width: 40rem;
     line-height: 1.5;
 }
@@ -254,6 +254,10 @@ h1, h2 {
     margin-right: 12px;
     vertical-align: middle;
     filter: brightness(0) saturate(100%) invert(88%) sepia(91%) saturate(3934%) hue-rotate(347deg) brightness(100%) contrast(110%);
+}
+
+.filosofie-quote:focus .notitie-icoon {
+    filter: brightness(0) saturate(100%) invert(14%) sepia(99%) saturate(7404%) hue-rotate(356deg) brightness(99%) contrast(115%);
 }
 
 .formulier-uitleg {

@@ -15,10 +15,10 @@ window.onload = function() {
     laadNotities();
 
     // Directe instructie bij start voor VoiceOver
-    let startInstructie = document.getElementById("start-instructie");
-    if (startInstructie) {
-        startInstructie.innerText = "Gebruik de Tab-toets om door de pagina te navigeren.";
-    }
+    // let startInstructie = document.getElementById("start-instructie");
+    // if (startInstructie) {
+    //     startInstructie.innerText = "Gebruik de Tab-toets om door de pagina te navigeren.";
+    // }
 
     // wis aria live van de notitie marge om te voorkomen dat de voice over deze later nogmaals voorleest
     document.querySelectorAll(".marge-notities").forEach(marge => {
@@ -71,7 +71,7 @@ document.addEventListener("keydown", function (event) {
         if (setupFase === 1) {
             tijdelijkeToets = toets;
             statusBlok.classList.remove("verborgen");
-            actieFeedback.innerHTML = `Gekozen: <strong>${leesbaar}</strong>  Druk nogmaals om te bevestigen.`;
+            actieFeedback.innerHTML = `Gekozen: <strong>${leesbaar}</strong>, Druk nogmaals om te bevestigen.`;
             setupFase = 2;
         } 
         // fase 2: bevestig sneltoets voor notities maken
@@ -97,19 +97,19 @@ document.addEventListener("keydown", function (event) {
                     }
                     
                     setupFase = 3;
-                }, 3500);
+                }, 3300);
 
             // als de gebruiker een andere toets indrukt, update dan de tijdelijke keuze en vraag om bevestiging
             } else {
                 tijdelijkeToets = toets;
-                actieFeedback.innerHTML = `Nieuwe keuze: <strong>${leesbaar}</strong>  Druk nogmaals om te bevestigen.`;
+                actieFeedback.innerHTML = `Nieuwe keuze: <strong>${leesbaar}</strong>, Druk nogmaals om te bevestigen.`;
             }
         }
         // fase 3: kies sneltoets voor kolom switchen
         else if (setupFase === 3) {
             tijdelijkeToets = toets;
             statusBlok.classList.remove("verborgen");
-            actieFeedback.innerHTML = `Gekozen: <strong>${leesbaar}</strong>  Druk nogmaals om te bevestigen.`;
+            actieFeedback.innerHTML = `Gekozen: <strong>${leesbaar}</strong>, Druk nogmaals om te bevestigen.`;
             setupFase = 4;
         }
         // fase 4: bevestig sneltoets voor kolom switchen
@@ -134,12 +134,12 @@ document.addEventListener("keydown", function (event) {
                     }
                     
                     setupFase = 5;
-                }, 3500);
+                }, 3300);
 
             // als de gebruiker een andere toets indrukt, update dan de tijdelijke keuze en vraag om bevestiging
             } else {
                 tijdelijkeToets = toets;
-                actieFeedback.innerHTML = `Nieuwe keuze: <strong>${leesbaar}</strong>  Druk nogmaals om te bevestigen.`;
+                actieFeedback.innerHTML = `Nieuwe keuze: <strong>${leesbaar}</strong>, Druk nogmaals om te bevestigen.`;
             }
         }
         // fase 5: wacht op enter om setup te voltooien en hoofdapplicatie te tonen
@@ -158,7 +158,7 @@ document.addEventListener("keydown", function (event) {
             setTimeout(function() {
                 let eersteQuote = document.querySelector(".filosofie-quote");
                 if (eersteQuote) eersteQuote.focus();
-            }, 2500);
+            }, 4500);
         }
         return; 
     }
@@ -218,7 +218,12 @@ function openFormulier(quoteId) {
     
     // vul het invoerveld met de opgeslagen tekst en geef feedback aan de screenreader over of we een bestaande notitie bewerken of een nieuwe maken
     invoerVeld.value = opgeslagenTekst;
-    vertelAanScreenreader(bestaande ? "Notitie bewerken." : "Nieuwe notitie.");
+    
+    if (bestaande) {
+        invoerVeld.setAttribute("aria-label", "Notitie bewerken. Huidige notitie:");
+    } else {
+        invoerVeld.setAttribute("aria-label", "Nieuwe notitie. Typ uw notitie en sla deze op met de toets Enter.");
+    }
 
     // plaats het formulier in de marge naast de quote, maak het zichtbaar en focus op het invoerveld
     document.getElementById("marge-" + quoteId).appendChild(formulier);
@@ -239,7 +244,7 @@ function switchKolom(focus, quoteId) {
         // anders focus op de lege marge en vertel dat deze leeg is
         } else {
             marge.setAttribute("tabindex", "-1");
-            marge.removeAttribute("role");
+            marge.removeAttribute("role", "paragraph");
             marge.focus();
             const legeMargeZinnen = [ 
                 "Hier is nog ruimte voor genialiteit.", 
@@ -273,7 +278,7 @@ function navigeerDoorNotities(focus, isShift) {
             notitieDaarin.focus();
         } else {
             doelMarge.setAttribute("tabindex", "-1");
-            doelMarge.removeAttribute("role");
+            doelMarge.removeAttribute("role", "paragraph");
             doelMarge.focus();
             const legeMargeZinnen = [
                 "Zo leeg als een tabula rasa.", 
@@ -307,7 +312,14 @@ document.getElementById("opslaan-knop").addEventListener("click", function() {
     if (bestaande) {
         bestaande.notitie = nieuweTekst;
         let kaart = document.querySelector(`#marge-${quoteId} .notitie-kaart`);
-        if (kaart) kaart.innerHTML = `<strong>Notitie:</strong> ${nieuweTekst}`;
+        // if (kaart) { 
+        //     kaart.setAttribute("aria-label", `Notitie: ${nieuweTekst}`);
+        //     kaart.innerHTML = `<span aria-hidden="true"><strong>Notitie:</strong> ${nieuweTekst}</span>`;
+        // }
+        if (kaart) { 
+            kaart.removeAttribute("aria-label");
+            kaart.innerHTML = `<strong>Notitie:</strong> ${nieuweTekst}`;
+        }
     // anders: maak nieuwe notitie
     } else {
         let nieuweNotitie = { quoteId: quoteId, notitie: nieuweTekst };
@@ -325,15 +337,17 @@ document.getElementById("opslaan-knop").addEventListener("click", function() {
 
     let opgeslagenKaart = document.querySelector(`#marge-${quoteId} .notitie-kaart`);
     if (opgeslagenKaart) {
-        opgeslagenKaart.setAttribute("role", "note");
+        opgeslagenKaart.setAttribute("role", "paragraph");
         opgeslagenKaart.focus();
     }
 
     sessieNotitieTeller++; 
+    let wachttijdFocus = 4000;
     
     setTimeout(function() {
-        if (sessieNotitieTeller === 3) {
-            vertelAanScreenreader("Hoera, al 3 notities, ga zo door! Hier wat confetti om het te vieren.");
+        if (sessieNotitieTeller % 3 === 0) {
+            vertelAanScreenreader("Hoera, 3 nieuwe notities, ga zo door! Hier wat confetti om het te vieren.");
+            wachttijdFocus = 9000;
             
             // wacht even (ongeveer tot de zin is uitgesproken)
             setTimeout(function() {
@@ -357,6 +371,7 @@ document.getElementById("opslaan-knop").addEventListener("click", function() {
                 "Opgeslagen. Weer een meesterwerkje voor het archief!"
             ];
             vertelAanScreenreader(complimenten[Math.floor(Math.random() * complimenten.length)]);
+            wachttijdFocus = 4000;
         }
     }, 800);
 
@@ -370,7 +385,7 @@ document.getElementById("opslaan-knop").addEventListener("click", function() {
         } else {
             document.getElementById(quoteId).focus();
         }
-    }, 4000); 
+    }, wachttijdFocus); 
 });
 
 // MARK: functie toon notities
@@ -386,7 +401,7 @@ function zetOpScherm(data) {
     // maak een nieuwe notitiekaart aan, zet de tekst erin, en plaats deze in de marge naast de juiste quote
     let nieuw = document.createElement("div");
     nieuw.setAttribute("tabindex", "-1");
-    nieuw.setAttribute("role", "note");
+    nieuw.setAttribute("role", "paragraph");
     nieuw.classList.add("notitie-kaart");
     
     // toon notitie 
@@ -395,7 +410,7 @@ function zetOpScherm(data) {
     if (toonTekst === undefined || toonTekst === "undefined") toonTekst = "";
     
     // laat de notitie zien
-    nieuw.innerHTML = `<strong>Notitie:</strong> ${toonTekst}`;
+    nieuw.innerHTML = `Notitie: ${toonTekst}`;
     document.getElementById("marge-" + data.quoteId)?.appendChild(nieuw);
 
     // koppel aan de juiste quote
