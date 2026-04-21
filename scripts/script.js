@@ -52,7 +52,7 @@ document.addEventListener("keydown", function (event) {
     if (setupFase > 0) {
         // negeer lang ingedrukt houden van een toets en blokkeer bedieningstoetsen
         if (event.repeat) return; 
-        if (["tab", "shift", "control", "alt", "meta", "capslock"].includes(toets)) return;
+        // if (["tab", "shift", "control", "alt", "meta", "capslock"].includes(toets)) return;
         event.preventDefault();
 
         // haal elementen op waar screenreader feedback en status updates worden getoond
