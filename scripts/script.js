@@ -52,7 +52,7 @@ document.addEventListener("keydown", function (event) {
     if (setupFase > 0) {
         // negeer lang ingedrukt houden van een toets en blokkeer bedieningstoetsen
         if (event.repeat) return; 
-        // if (["tab", "shift", "control", "alt", "meta", "capslock"].includes(toets)) return;
+        if (["tab", "shift", "control", "alt", "meta", "capslock"].includes(toets)) return;
         event.preventDefault();
 
         // haal elementen op waar screenreader feedback en status updates worden getoond
@@ -281,7 +281,6 @@ function navigeerDoorNotities(focus, isShift) {
             doelMarge.removeAttribute("role", "paragraph");
             doelMarge.focus();
             const legeMargeZinnen = [
-                "Zo leeg als een tabula rasa.", 
                 "Hier is nog ruimte voor genialiteit.", 
                 "Nog geen notities. Tijd om na te denken.", 
                 "Een leeg canvas voor je gedachten."
