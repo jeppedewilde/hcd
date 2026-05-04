@@ -1,9 +1,11 @@
+/* basis */
 *, *::before, *::after {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
+/* algemeen */
 body {
     font-family: 'Calibri', 'Segoe UI', Arial, sans-serif;
     background-color: #121212;
@@ -24,6 +26,7 @@ body {
     min-height: 800px;
 }
 
+/* typografie & titels */
 h1, h2 {
     color: #79a6e6;
     margin-bottom: 20px;
@@ -50,6 +53,7 @@ h1, h2 {
     margin-bottom: 0;
 }
 
+/* grid (2 marges */
 .quote-regel {
     display: flex;
     gap: 40px;
@@ -78,11 +82,11 @@ h1, h2 {
     transition: all 0.3s ease;
 }
 
+/* toegankelijkheid */
 .notitie-kaart {
     transition: all 0.3s ease;
 }
 
-/* --- HET VERGROOTGLAS EFFECT --- */
 .filosofie-quote:focus {
     background-color: #000000 !important;
     color: #ffee00 !important;
@@ -96,6 +100,7 @@ h1, h2 {
     box-shadow: 0 10px 30px rgba(0,0,0,0.5);
 }
 
+/* focus */
 .filosofie-quote.actieve-quote,
 .quote-regel:has(.marge-notities:focus) .filosofie-quote,
 .quote-regel:has(.notitie-kaart:focus) .filosofie-quote,
@@ -135,6 +140,7 @@ h1, h2 {
     color: #ffee00;
 }
 
+/* notitie formulier */
 #notitie-formulier {
     position: relative; 
     width: 100%;
@@ -189,6 +195,14 @@ h1, h2 {
     width: 100%;
 }
 
+.formulier-uitleg {
+    font-size: 1.4em;
+    color: #ffee00;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+/* opgeslagen notitie */
 .notitie-kaart {
     background-color: #2a2a2a;
     border-left: 4px solid #79a6e6;
@@ -198,6 +212,7 @@ h1, h2 {
     border-radius: 4px;
 }
 
+/* configurator */
 #sneltoets-configurator {
     display: flex;
     flex-direction: column;
@@ -236,6 +251,7 @@ h1, h2 {
     line-height: 1.5;
 }
 
+/* utilities */
 .sr-only {
     position: absolute;
     left: -9999px;
@@ -248,6 +264,7 @@ h1, h2 {
     display: none !important;
 }
 
+/* icoon/filter */
 .notitie-icoon {
     height: 1.5em;
     width: auto;
@@ -258,11 +275,4 @@ h1, h2 {
 
 .filosofie-quote:focus .notitie-icoon {
     filter: brightness(0) saturate(100%) invert(14%) sepia(99%) saturate(7404%) hue-rotate(356deg) brightness(99%) contrast(115%);
-}
-
-.formulier-uitleg {
-    font-size: 1.4em;
-    color: #ffee00;
-    margin-bottom: 15px;
-    font-weight: bold;
 }
