@@ -133,7 +133,10 @@ Mijn laatste testresultaten verwerken in aanbevelingen, ReadMe updaten met alle 
 ## Prototype 1
 
 ### Schermafbeeldingen prototype 1
-
+<img width="1710" height="822" alt="Scherm­afbeelding 2026-04-06 om 12 21 54" src="https://github.com/user-attachments/assets/8d3dd511-bcc9-440a-bef9-2eabd3c195c5" />
+<img width="1710" height="822" alt="Scherm­afbeelding 2026-04-06 om 12 21 39" src="https://github.com/user-attachments/assets/14034315-a261-419d-b90d-062cd53b0cc4" />
+<img width="1710" height="822" alt="Scherm­afbeelding 2026-04-06 om 12 21 30" src="https://github.com/user-attachments/assets/702a5ef7-69e0-4f5c-8511-959a338a00b3" />
+<img width="1710" height="822" alt="Scherm­afbeelding 2026-04-06 om 12 21 21" src="https://github.com/user-attachments/assets/c04fe787-4a98-4628-beec-d4731e5a1086" />
 
 ### Testresultaten (test 1) en aanpassingen (voor prototype 2)
 Test observatie > Roger werkt het liefst in een word document en wil zijn notities naast de juiste tekst zien. Daarnaast heeft hij voorkeur voor dark modus.
@@ -151,7 +154,12 @@ Aanpassing > Notitie formulier simpeler gemaakt; concept & tag veld weggehaald, 
 ## Prototype 2
 
 ### Schermafbeeldingen prototype 2
-
+<img width="1710" height="473" alt="Scherm­afbeelding 2026-04-14 om 09 27 32" src="https://github.com/user-attachments/assets/962a643e-3a4f-4d93-8931-d722a70e2364" />
+<img width="1710" height="481" alt="Scherm­afbeelding 2026-04-14 om 09 26 23" src="https://github.com/user-attachments/assets/1bcd2342-6cc2-4a85-86dd-9bbf1fb002d8" />
+<img width="1710" height="832" alt="Scherm­afbeelding 2026-04-14 om 09 27 17" src="https://github.com/user-attachments/assets/3dab3ecb-dae2-471f-8d52-708e8a07f96e" />
+<img width="1710" height="832" alt="Scherm­afbeelding 2026-04-14 om 09 27 02" src="https://github.com/user-attachments/assets/5866c46f-ced5-4af5-b52b-f3b0e9ad3d1f" />
+<img width="1710" height="832" alt="Scherm­afbeelding 2026-04-14 om 09 26 52" src="https://github.com/user-attachments/assets/d6a7837c-82c4-4c29-8124-d9ef715a64bf" />
+<img width="1710" height="832" alt="Scherm­afbeelding 2026-04-14 om 09 26 35" src="https://github.com/user-attachments/assets/1dac499b-93d4-45a7-9a98-39b97f2fd3eb" />
 
 ### Testresultaten (test 2) en aanpassingen (voor prototype 3)
 Test observatie > Oplezen van de sneltoetsen had geen duidelijke introductie en ging te snel. Hierdoor had Roger niet door wat er gebeurde, dacht hij dat hij in een navigatiemenu zat en ontstond er onduidelijkheid. Toen hij het eenmaal doorhad lukte het wel, maar hij moest de sneltoets (a) wel de hele tijd zoeken, dit leek niet logisch voor hem.
@@ -163,7 +171,20 @@ Aanpassing > Ook een sneltoets laten kiezen voor het switchen zodat hij zich erv
 ## Prototype 3
 
 ### Schermafbeeldingen prototype 3
-
+<img width="1710" height="835" alt="Scherm­afbeelding 2026-04-20 om 11 29 10" src="https://github.com/user-attachments/assets/b305fd2f-bf00-4d9f-8a90-6aac4793d324" />
+<img width="1710" height="835" alt="Scherm­afbeelding 2026-04-20 om 11 29 03" src="https://github.com/user-attachments/assets/e4cb7c9a-a080-47d6-898b-385eabeead8c" />
+<img width="1710" height="835" alt="Scherm­afbeelding 2026-04-20 om 11 28 56" src="https://github.com/user-attachments/assets/0070e4ed-2bf3-47ab-8115-58d2481428e6" />
+<img width="1710" height="835" alt="Scherm­afbeelding 2026-04-20 om 11 28 44" src="https://github.com/user-attachments/assets/224a6d73-808e-49e7-9d49-639ea4e536f3" />
+<img width="1710" height="835" alt="Scherm­afbeelding 2026-04-20 om 11 28 37" src="https://github.com/user-attachments/assets/2b69080a-fa7a-4f52-bdf0-ea9788bc1487" />
+<img width="1710" height="835" alt="Scherm­afbeelding 2026-04-20 om 11 25 25" src="https://github.com/user-attachments/assets/6bececdf-7995-4752-b29c-029852bf8af8" />
+<img width="1710" height="835" alt="Scherm­afbeelding 2026-04-20 om 11 24 56" src="https://github.com/user-attachments/assets/fcc8607c-cbe4-463d-9920-c5b5e3dd7341" />
+<img width="1710" height="835" alt="Scherm­afbeelding 2026-04-20 om 11 24 41" src="https://github.com/user-attachments/assets/6b621fb3-3a90-47f3-9720-8a2024045e16" />
+<img width="1710" height="835" alt="Scherm­afbeelding 2026-04-20 om 11 24 35" src="https://github.com/user-attachments/assets/ff1c7ba9-9f5e-4e09-8a72-70f32f013680" />
+<img width="1710" height="835" alt="Scherm­afbeelding 2026-04-20 om 11 24 26" src="https://github.com/user-attachments/assets/b1c839ef-04ed-410c-9345-ed736944d79e" />
+<img width="1710" height="835" alt="Scherm­afbeelding 2026-04-20 om 11 24 11" src="https://github.com/user-attachments/assets/67df0fb6-87a8-4548-8fad-8c8347e3a46d" />
+<img width="1710" height="835" alt="Scherm­afbeelding 2026-04-20 om 11 24 01" src="https://github.com/user-attachments/assets/b1966a6a-bac7-42dc-a83c-a49eda808436" />
+<img width="1710" height="835" alt="Scherm­afbeelding 2026-04-20 om 11 23 53" src="https://github.com/user-attachments/assets/fef36102-9f24-4d9d-bcd5-95fc66ae8d7a" />
+<img width="1710" height="835" alt="Scherm­afbeelding 2026-04-20 om 11 23 46" src="https://github.com/user-attachments/assets/fc662704-69d0-479a-8be4-b5dd404d04e8" />
 
 ### Testresultaten (test 3) en aanpassingen (voor prototype 4)
 Test observatie > Groep aan het eind van elke zin verwarde hem en hij bleef door luisteren tot het standaard “Je bevindt je nu op een… om dit veld te verlaten, toets ctrl command shift + pijl omhoog”.
@@ -181,7 +202,10 @@ Aanpassing > Persoonlijke feedback zinnen met een filosofisch randje & confetti 
 ## Prototype 4
 
 ### Schermafbeeldingen prototype 4
-
+<img width="1709" height="922" alt="Scherm­afbeelding 2026-04-30 om 20 48 47" src="https://github.com/user-attachments/assets/a4a0b50c-cb00-45ba-9ce9-d249f925e227" />
+<img width="1709" height="922" alt="Scherm­afbeelding 2026-04-30 om 20 48 44" src="https://github.com/user-attachments/assets/36e6f39a-3ce2-4c3c-8f1e-650997ec8934" />
+<img width="1709" height="922" alt="Scherm­afbeelding 2026-04-30 om 20 48 19" src="https://github.com/user-attachments/assets/d4470188-0684-441e-87db-bf5b217c19a9" />
+<img width="1709" height="922" alt="Scherm­afbeelding 2026-04-30 om 20 47 29" src="https://github.com/user-attachments/assets/1c3adf8f-fe79-4825-b3e5-1d293939a01c" />
 
 ### Testresultaten (test 4)
 - Flow werkt goed, Roger navigeert er soepel doorheen
@@ -189,7 +213,7 @@ Aanpassing > Persoonlijke feedback zinnen met een filosofisch randje & confetti 
 - Klikt wat te snel door na het maken van zijn 3e notitie waardoor hij de uitleg van de confetti afkapt, hij ziet de confetti wel maar snapt niet helemaal waarom dat er is. Hij lijkt wel door te hebben dat hij het heeft veroorzaakt want hij gaat snel meer notities maken tot de confetti weer komt (dit keer hoort hij de uitleg wel) en hij vindt de confetti een leuke toevoeging.
 - Vergat zijn zelf ingestelde knoppen een heel klein beetje
 
-## Aanbevelingen
+# Aanbevelingen
 Op basis van de laatste test (en ideeën die ik nog heb) zou ik de volgende aanbevelingen doen als er op dit prototype verder gewerkt zou worden:
 1. Prototype uitbreiden. Tekst als inhoud in plaats van quotes.
 2. Helpfunctie. Ondanks dat Roger de toetsen zelf koos en dat goed werkte, zou het handig zijn als hij kan terugluisteren welke toetsen hij heeft ingesteld. Bijvoorbeeld: Als hij op “?” klikt leest de voice-over zijn gemaakte keuzes nogmaals voor.
@@ -219,6 +243,5 @@ Het lezen van filosofische literatuur en het maken van annotaties is een serieuz
 
 De meest overdreven nonsense van het implementeren van een confetti-kanon dat na elke drie nieuwe notities afgaat op het scherm, inclusief een speciaal audio-bericht. Uit de testresultaten bleek dat dit een schot in de roos was. Roger grinnikte om de complimenten, moest hardop lachen om de "ballonnetjes" en ging er sneller en gemotiveerder door werken. De nonsense zat de functionaliteit niet in de weg, maar zorgde ervaring dat het maken van notities veranderde van een saaie verplichting naar een verrassende en positieve ervaring.
 
-
-## Bronnenlijst
+# Bronnenlijst
 Keydown function: https://developer.mozilla.org/en-US/docs/Web/API/Element/keydown_event & https://www.w3schools.com/jsref//event_onkeydown.asp & https://www.geeksforgeeks.org/html/html-onkeydown-event-attribute/ & https://stackoverflow.com/questions/46474961/firing-a-function-with-onkeydown-event & https://developer.mozilla.org/en-US/docs/Web/API/KeyboardEvent/key 
