@@ -2,12 +2,15 @@
 human centered design
 
 ## Opdrachtomschrijving
-Maak een website die werkt voor één persoon: Roger. 
+Het web is voor iedereen, maar ontwerpen voor "iedereen" resulteert vaak in een gemiddelde ervaring. In deze opdracht draaien we dat om: we ontwerpen een digitaal prototype dat perfect op maat is gemaakt voor één specifiek persoon. Door de specifieke behoeften en werkwijzen van deze testpersoon door en door te leren kennen, creëren we een optimale, gepersonaliseerde webervaring. Mijn testpersoon is Roger. 
 
 ### Roger
 Roger studeert filosofie en hij wil graag annotaties kunnen maken in de (digitale) boeken die hij leest, en die annotaties makkelijk terug kunnen vinden.
 
 Roger heeft maculadegeneratie. Hij kan steeds slechter zien en is nu op het punt dat hij echt niet meer zonder screenreader kan.
+
+### Probleemomschrijving
+Naast het feit dat Roger’s zicht verslechtert en hij een screenreader nodig heeft, werkt het hem tegen dat hij deze beperking pas op latere leeftijd kreeg. Hij is gewend om op zijn zicht te vertrouwen, en ondanks dat hij weet dat hij dat niet meer kan, blijft hij dit toch proberen. De tailor made oplossing voor Roger moet dus volledig met een screenreader te bedienen zijn, maar daarnaast is het voor hem belangrijk om ook visueel te kunnen volgen wat er op het scherm gebeurt.
 
 # Week 1
 ## Maandag 30 maart
@@ -128,6 +131,7 @@ Mijn laatste testresultaten verwerken in aanbevelingen, ReadMe updaten met alle 
 # Overzicht ontwikkeling prototypes o.b.v. de testresultaten
 
 ## Prototype 1
+
 ### Schermafbeeldingen prototype 1
 
 
@@ -195,7 +199,6 @@ Op basis van de laatste test (en ideeën die ik nog heb) zou ik de volgende aanb
 6. Anticiperen op de toekomst. Roger’s zicht blijft afnemen tot op een punt dat hij niks meer visueel kan volgen. Om Roger te helpen hieraan te wennen kan er een focus modus geïmplementeerd worden die het beeld compleet zwart maakt, dit dwingt Roger te vertrouwen op de screenreader en hier beter mee om te leren gaan.
 
 ## Reflectie design principles
-
 Tijdens dit project stond niet de 'gemiddelde gebruiker' centraal, maar één specifiek persoon: Roger. Door te ontwerpen voor zijn unieke situatie (maculadegeneratie, afhankelijkheid van een screenreader maar ook visueel mee willen kijken en filosofie-studie) heb ik gemerkt hoe goed de exclusive design principles werken. Hieronder reflecteer ik op hoe deze principes mijn proces en het eindproduct hebben gevormd.
 
 1. Study situation
