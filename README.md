@@ -1,17 +1,31 @@
-# hcd
-human centered design
+# HCD
+Vak: Human Centered Design
+Student: Jeppe de Wilde
+Docent: Vasilis van Gemert
 
-## Opdrachtomschrijving
+
+# Inhoudsopgave
+1. Opdrachtomschrijving
+2. Weekblog
+3. Overzicht ontwikkeling prototypes o.b.v. de testresultaten
+4. Aanbevelingen
+5. Reflectie design principles
+6. Bronnenlijst
+
+
+# 1. Opdrachtomschrijving
 Het web is voor iedereen, maar ontwerpen voor "iedereen" resulteert vaak in een gemiddelde ervaring. In deze opdracht draaien we dat om: we ontwerpen een digitaal prototype dat perfect op maat is gemaakt voor één specifiek persoon. Door de specifieke behoeften en werkwijzen van deze testpersoon door en door te leren kennen, creëren we een optimale, gepersonaliseerde webervaring. Mijn testpersoon is Roger. 
 
-### Roger
+## Roger
 Roger studeert filosofie en hij wil graag annotaties kunnen maken in de (digitale) boeken die hij leest, en die annotaties makkelijk terug kunnen vinden.
 
 Roger heeft maculadegeneratie. Hij kan steeds slechter zien en is nu op het punt dat hij echt niet meer zonder screenreader kan.
 
-### Probleemomschrijving
+## Probleemomschrijving
 Naast het feit dat Roger’s zicht verslechtert en hij een screenreader nodig heeft, werkt het hem tegen dat hij deze beperking pas op latere leeftijd kreeg. Hij is gewend om op zijn zicht te vertrouwen, en ondanks dat hij weet dat hij dat niet meer kan, blijft hij dit toch proberen. De tailor made oplossing voor Roger moet dus volledig met een screenreader te bedienen zijn, maar daarnaast is het voor hem belangrijk om ook visueel te kunnen volgen wat er op het scherm gebeurt.
 
+
+# Weekblog
 # Week 1
 ## Maandag 30 maart
 ### Wat heb ik vandaag gedaan? / Hoelang heb ik daarover gedaan?
@@ -31,11 +45,11 @@ Morgen ga ik verder met het uitwerken van mijn eerste iteratie. Daarvoor wil ik 
 
 ## Dinsdag 31 maart
 ### Wat heb ik vandaag gedaan? / Hoelang heb ik daarover gedaan?
-09.30-10.15 | 45min | Weekly Geek wooclap quiz.
-10.15-12.00 | 1uur 45min | Wat styling toegevoegd (werkt wat fijner), achtergrond kleur toegevoegd om te testen of Roger dat ziet en daar iets aan heeft, local storage toegevoegd zodat annotaties opgeslagen worden, onderzoek gedaan naar focus van het systeem vs focus van voice over.
-12.00-12.30 | 30min | Pauze. 
-12.30-14.00 | 1,5uur | Gewerkt aan hoe de focus verspringt na het maken van een annotatie en de flow van de test, meer testvragen bedacht, voorbereid op de test.
-14.00-16.00 | 2uur | Testen met Roger.
+- 09.30-10.15 | 45min | Weekly Geek wooclap quiz.
+- 10.15-12.00 | 1uur 45min | Wat styling toegevoegd (werkt wat fijner), achtergrond kleur toegevoegd om te testen of Roger dat ziet en daar iets aan heeft, local storage toegevoegd zodat annotaties opgeslagen worden, onderzoek gedaan naar focus van het systeem vs focus van voice over.
+- 12.00-12.30 | 30min | Pauze. 
+- 12.30-14.00 | 1,5uur | Gewerkt aan hoe de focus verspringt na het maken van een annotatie en de flow van de test, meer testvragen bedacht, voorbereid op de test.
+- 14.00-16.00 | 2uur | Testen met Roger.
 
 ### Wat heb ik vandaag geleerd?
 Ik heb mij vandaag iets meer geprobeerd te verdiepen in de screenreader en hoe dat in zijn werking gaat. Daarnaast heb ik geleerd hoe local storage werkt.
@@ -47,12 +61,12 @@ De volgende keer ga ik een nieuwe iteratie van mijn prototype maken waarin ik de
 # Week 2
 ## Maandag 6 april
 ### Wat heb ik vandaag gedaan? / Hoelang heb ik daarover gedaan?
-09.30-10.30 | 1uur | Intro van de dag
-10.30-12.30 | 2uur | Design verbeteringen: 2 kolommen, dark mode, geel/zwarte focus
-12.30-13.30 | 1uur | Pauze. 
-13.30-15.00 | 1,5uur | Uitleg over sneltoetsen aan het begin
-15.00-16.00 | 1uur | Voorbereiden Weekly Geek.
-16.00-16.10 | 10min | Checkout
+- 09.30-10.30 | 1uur | Intro van de dag
+- 10.30-12.30 | 2uur | Design verbeteringen: 2 kolommen, dark mode, geel/zwarte focus
+- 12.30-13.30 | 1uur | Pauze. 
+- 13.30-15.00 | 1,5uur | Uitleg over sneltoetsen aan het begin
+- 15.00-16.00 | 1uur | Voorbereiden Weekly Geek.
+- 16.00-16.10 | 10min | Checkout
 
 ### Wat heb ik vandaag geleerd?
 Ik heb vandaag vooral aan de layout/styling gewerkt.
@@ -62,17 +76,18 @@ Morgen ga zorgen dat de navigatie beter werkt, zowel in de kolommen zelf als het
 
 ## Dinsdag 7 april
 ### Wat heb ik vandaag gedaan? / Hoelang heb ik daarover gedaan?
-09.30-10.30 | 1uur | Intro van de dag
-10.30-12.30 | 2uur | Switchen tussen kolommen en navigeren verbeteren
-12.30-13.30 | 1uur | Pauze. 
-13.30-14.00 | 30min | Laatste dingetjes
-14.00-16.00 | 2uur | Test 2 met Roger
+- 09.30-10.30 | 1uur | Intro van de dag
+- 10.30-12.30 | 2uur | Switchen tussen kolommen en navigeren verbeteren
+- 12.30-13.30 | 1uur | Pauze. 
+- 13.30-14.00 | 30min | Laatste dingetjes
+- 14.00-16.00 | 2uur | Test 2 met Roger
 
 ### Wat heb ik vandaag geleerd?
 Vandaag heb ik vooral kleine dingetjes gedaan en niet echt veel nieuwe dingen gedaan.
 
 ### Wat ga ik de volgende keer doen?
 Mijn prototype weer verbeteren op basis van de testresultaten.
+
 
 # Week 3
 ## Maandag 13 april
@@ -97,16 +112,17 @@ Ik heb vandaag niet echt nieuwe dingen geleerd.
 ### Wat ga ik de volgende keer doen?
 Mijn prototype verder optimaliseren op basis van de test.
 
+
 # Week 4
 ## Maandag 20 april
 ### Wat heb ik vandaag gedaan? / Hoelang heb ik daarover gedaan?
-09.30-10.30 | 1uur | Intro van de dag
-10.30-11.30 | 1uur | Betere comments bij mijn js code zetten
-11.30-12.30 | 1uur | Uitspraak Roger aangepast in voice over programma, plan gemaakt van wat ik wil aanpassen voor de laatste test,
-12.30-13.30 | 1uur | Pauze. 
-13.30-15.00 | 1,5uur | Meer auditieve uitleg toegevoegd, aanpassingen icoon, leuke feedback zinnen & confetti toegevoegd, veel bug fixes.
-15.00-16.00 | 1uur | Voorbereiden Weekly Geek.
-16.00-16.10 | 10min | Checkout met [naam].
+- 09.30-10.30 | 1uur | Intro van de dag
+- 10.30-11.30 | 1uur | Betere comments bij mijn js code zetten
+- 11.30-12.30 | 1uur | Uitspraak Roger aangepast in voice over programma, plan gemaakt van wat ik wil aanpassen voor de laatste test,
+- 12.30-13.30 | 1uur | Pauze. 
+- 13.30-15.00 | 1,5uur | Meer auditieve uitleg toegevoegd, aanpassingen icoon, leuke feedback zinnen & confetti toegevoegd, veel bug fixes.
+- 15.00-16.00 | 1uur | Voorbereiden Weekly Geek.
+- 16.00-16.10 | 10min | Checkout met [naam].
 
 ### Wat heb ik vandaag geleerd?
 Niet per se iets dat echt nieuw was, maar ik heb voor het eerst een uitspraak aangepast in het voice over programma en gezorgd dat de voice over iets opleest uit een random lijstje met opmerkingen
@@ -116,11 +132,11 @@ Morgen ga ik wat laatste bug fixes doen en voorbereiden op de laatste test
 
 ## Dinsdag 21 april
 ### Wat heb ik vandaag gedaan? / Hoelang heb ik daarover gedaan?
-09.30-10.30 | 1uur | Intro van de dag
-10.30-12.30 | 2uur | Bug fixes, kleine aanpassingen
-12.30-13.30 | 1uur | Pauze. 
-13.30-14.00 | 30min | Uploaden github
-14.00-16.00 | 2uur | Test met Roger
+- 09.30-10.30 | 1uur | Intro van de dag
+- 10.30-12.30 | 2uur | Bug fixes, kleine aanpassingen
+- 12.30-13.30 | 1uur | Pauze. 
+- 13.30-14.00 | 30min | Uploaden github
+- 14.00-16.00 | 2uur | Test met Roger
 
 ### Wat heb ik vandaag geleerd?
 Ik heb vandaag niks nieuws gedaan :)
@@ -131,11 +147,14 @@ Mijn laatste testresultaten verwerken in aanbevelingen, ReadMe updaten met alle 
 # Overzicht ontwikkeling prototypes o.b.v. de testresultaten
 
 ## Prototype 1
-
 ### Schermafbeeldingen prototype 1
+
 <img width="1710" height="822" alt="Scherm­afbeelding 2026-04-06 om 12 21 54" src="https://github.com/user-attachments/assets/8d3dd511-bcc9-440a-bef9-2eabd3c195c5" />
+
 <img width="1710" height="822" alt="Scherm­afbeelding 2026-04-06 om 12 21 39" src="https://github.com/user-attachments/assets/14034315-a261-419d-b90d-062cd53b0cc4" />
+
 <img width="1710" height="822" alt="Scherm­afbeelding 2026-04-06 om 12 21 30" src="https://github.com/user-attachments/assets/702a5ef7-69e0-4f5c-8511-959a338a00b3" />
+
 <img width="1710" height="822" alt="Scherm­afbeelding 2026-04-06 om 12 21 21" src="https://github.com/user-attachments/assets/c04fe787-4a98-4628-beec-d4731e5a1086" />
 
 ### Testresultaten (test 1) en aanpassingen (voor prototype 2)
@@ -152,13 +171,18 @@ Test observatie > Roger kan niet blind typen, veel velden en extra sneltoetsen z
 Aanpassing > Notitie formulier simpeler gemaakt; concept & tag veld weggehaald, alleen 1 tekstvak.
 
 ## Prototype 2
-
 ### Schermafbeeldingen prototype 2
+
 <img width="1710" height="473" alt="Scherm­afbeelding 2026-04-14 om 09 27 32" src="https://github.com/user-attachments/assets/962a643e-3a4f-4d93-8931-d722a70e2364" />
+
 <img width="1710" height="481" alt="Scherm­afbeelding 2026-04-14 om 09 26 23" src="https://github.com/user-attachments/assets/1bcd2342-6cc2-4a85-86dd-9bbf1fb002d8" />
+
 <img width="1710" height="832" alt="Scherm­afbeelding 2026-04-14 om 09 27 17" src="https://github.com/user-attachments/assets/3dab3ecb-dae2-471f-8d52-708e8a07f96e" />
+
 <img width="1710" height="832" alt="Scherm­afbeelding 2026-04-14 om 09 27 02" src="https://github.com/user-attachments/assets/5866c46f-ced5-4af5-b52b-f3b0e9ad3d1f" />
+
 <img width="1710" height="832" alt="Scherm­afbeelding 2026-04-14 om 09 26 52" src="https://github.com/user-attachments/assets/d6a7837c-82c4-4c29-8124-d9ef715a64bf" />
+
 <img width="1710" height="832" alt="Scherm­afbeelding 2026-04-14 om 09 26 35" src="https://github.com/user-attachments/assets/1dac499b-93d4-45a7-9a98-39b97f2fd3eb" />
 
 ### Testresultaten (test 2) en aanpassingen (voor prototype 3)
@@ -169,21 +193,34 @@ Test observatie > Mogelijkheid om te switchen tussen de quotes en zijn notities 
 Aanpassing > Ook een sneltoets laten kiezen voor het switchen zodat hij zich ervan bewust is dat dit een mogelijkheid is
 
 ## Prototype 3
-
 ### Schermafbeeldingen prototype 3
+
 <img width="1710" height="835" alt="Scherm­afbeelding 2026-04-20 om 11 29 10" src="https://github.com/user-attachments/assets/b305fd2f-bf00-4d9f-8a90-6aac4793d324" />
+
 <img width="1710" height="835" alt="Scherm­afbeelding 2026-04-20 om 11 29 03" src="https://github.com/user-attachments/assets/e4cb7c9a-a080-47d6-898b-385eabeead8c" />
+
 <img width="1710" height="835" alt="Scherm­afbeelding 2026-04-20 om 11 28 56" src="https://github.com/user-attachments/assets/0070e4ed-2bf3-47ab-8115-58d2481428e6" />
+
 <img width="1710" height="835" alt="Scherm­afbeelding 2026-04-20 om 11 28 44" src="https://github.com/user-attachments/assets/224a6d73-808e-49e7-9d49-639ea4e536f3" />
+
 <img width="1710" height="835" alt="Scherm­afbeelding 2026-04-20 om 11 28 37" src="https://github.com/user-attachments/assets/2b69080a-fa7a-4f52-bdf0-ea9788bc1487" />
+
 <img width="1710" height="835" alt="Scherm­afbeelding 2026-04-20 om 11 25 25" src="https://github.com/user-attachments/assets/6bececdf-7995-4752-b29c-029852bf8af8" />
+
 <img width="1710" height="835" alt="Scherm­afbeelding 2026-04-20 om 11 24 56" src="https://github.com/user-attachments/assets/fcc8607c-cbe4-463d-9920-c5b5e3dd7341" />
+
 <img width="1710" height="835" alt="Scherm­afbeelding 2026-04-20 om 11 24 41" src="https://github.com/user-attachments/assets/6b621fb3-3a90-47f3-9720-8a2024045e16" />
+
 <img width="1710" height="835" alt="Scherm­afbeelding 2026-04-20 om 11 24 35" src="https://github.com/user-attachments/assets/ff1c7ba9-9f5e-4e09-8a72-70f32f013680" />
+
 <img width="1710" height="835" alt="Scherm­afbeelding 2026-04-20 om 11 24 26" src="https://github.com/user-attachments/assets/b1c839ef-04ed-410c-9345-ed736944d79e" />
+
 <img width="1710" height="835" alt="Scherm­afbeelding 2026-04-20 om 11 24 11" src="https://github.com/user-attachments/assets/67df0fb6-87a8-4548-8fad-8c8347e3a46d" />
+
 <img width="1710" height="835" alt="Scherm­afbeelding 2026-04-20 om 11 24 01" src="https://github.com/user-attachments/assets/b1966a6a-bac7-42dc-a83c-a49eda808436" />
+
 <img width="1710" height="835" alt="Scherm­afbeelding 2026-04-20 om 11 23 53" src="https://github.com/user-attachments/assets/fef36102-9f24-4d9d-bcd5-95fc66ae8d7a" />
+
 <img width="1710" height="835" alt="Scherm­afbeelding 2026-04-20 om 11 23 46" src="https://github.com/user-attachments/assets/fc662704-69d0-479a-8be4-b5dd404d04e8" />
 
 ### Testresultaten (test 3) en aanpassingen (voor prototype 4)
@@ -200,11 +237,14 @@ Opdracht eis > Add nonsense
 Aanpassing > Persoonlijke feedback zinnen met een filosofisch randje & confetti na het maken van 3 notities.
 
 ## Prototype 4
-
 ### Schermafbeeldingen prototype 4
+
 <img width="1709" height="922" alt="Scherm­afbeelding 2026-04-30 om 20 48 47" src="https://github.com/user-attachments/assets/a4a0b50c-cb00-45ba-9ce9-d249f925e227" />
+
 <img width="1709" height="922" alt="Scherm­afbeelding 2026-04-30 om 20 48 44" src="https://github.com/user-attachments/assets/36e6f39a-3ce2-4c3c-8f1e-650997ec8934" />
+
 <img width="1709" height="922" alt="Scherm­afbeelding 2026-04-30 om 20 48 19" src="https://github.com/user-attachments/assets/d4470188-0684-441e-87db-bf5b217c19a9" />
+
 <img width="1709" height="922" alt="Scherm­afbeelding 2026-04-30 om 20 47 29" src="https://github.com/user-attachments/assets/1c3adf8f-fe79-4825-b3e5-1d293939a01c" />
 
 ### Testresultaten (test 4)
@@ -212,6 +252,7 @@ Aanpassing > Persoonlijke feedback zinnen met een filosofisch randje & confetti 
 - Hij grinnikt om de persoonlijke feedback zinnen
 - Klikt wat te snel door na het maken van zijn 3e notitie waardoor hij de uitleg van de confetti afkapt, hij ziet de confetti wel maar snapt niet helemaal waarom dat er is. Hij lijkt wel door te hebben dat hij het heeft veroorzaakt want hij gaat snel meer notities maken tot de confetti weer komt (dit keer hoort hij de uitleg wel) en hij vindt de confetti een leuke toevoeging.
 - Vergat zijn zelf ingestelde knoppen een heel klein beetje
+
 
 # Aanbevelingen
 Op basis van de laatste test (en ideeën die ik nog heb) zou ik de volgende aanbevelingen doen als er op dit prototype verder gewerkt zou worden:
@@ -222,7 +263,8 @@ Op basis van de laatste test (en ideeën die ik nog heb) zou ik de volgende aanb
 5. Add nonsense. Roger reageerde erg positief op de complimenten van de screenreader en de confetti. Dit kan verder uitgebreid worden met verschillende beloningen na meer notities, meer geluidseffecten en filosofische grapjes tussendoor.
 6. Anticiperen op de toekomst. Roger’s zicht blijft afnemen tot op een punt dat hij niks meer visueel kan volgen. Om Roger te helpen hieraan te wennen kan er een focus modus geïmplementeerd worden die het beeld compleet zwart maakt, dit dwingt Roger te vertrouwen op de screenreader en hier beter mee om te leren gaan.
 
-## Reflectie design principles
+
+# Reflectie design principles
 Tijdens dit project stond niet de 'gemiddelde gebruiker' centraal, maar één specifiek persoon: Roger. Door te ontwerpen voor zijn unieke situatie (maculadegeneratie, afhankelijkheid van een screenreader maar ook visueel mee willen kijken en filosofie-studie) heb ik gemerkt hoe goed de exclusive design principles werken. Hieronder reflecteer ik op hoe deze principes mijn proces en het eindproduct hebben gevormd.
 
 1. Study situation
@@ -242,6 +284,7 @@ Roger is niet zomaar een 'gebruiker met een visuele beperking', hij is een filos
 Het lezen van filosofische literatuur en het maken van annotaties is een serieuze taak. Om de cognitieve belasting te verlagen en de ervaring menselijker te maken, heb ik dus nonsense toegevoegd. Na het succesvol opslaan van een notitie leest de screenreader nu willekeurige, motiverende complimenten voor, zoals "Succesvol bewaard. Roger for president!".
 
 De meest overdreven nonsense van het implementeren van een confetti-kanon dat na elke drie nieuwe notities afgaat op het scherm, inclusief een speciaal audio-bericht. Uit de testresultaten bleek dat dit een schot in de roos was. Roger grinnikte om de complimenten, moest hardop lachen om de "ballonnetjes" en ging er sneller en gemotiveerder door werken. De nonsense zat de functionaliteit niet in de weg, maar zorgde ervaring dat het maken van notities veranderde van een saaie verplichting naar een verrassende en positieve ervaring.
+
 
 # Bronnenlijst
 Keydown function: https://developer.mozilla.org/en-US/docs/Web/API/Element/keydown_event & https://www.w3schools.com/jsref//event_onkeydown.asp & https://www.geeksforgeeks.org/html/html-onkeydown-event-attribute/ & https://stackoverflow.com/questions/46474961/firing-a-function-with-onkeydown-event & https://developer.mozilla.org/en-US/docs/Web/API/KeyboardEvent/key 
