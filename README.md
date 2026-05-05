@@ -15,13 +15,13 @@ Naast het feit dat Roger’s zicht verslechtert en hij een screenreader nodig he
 # Week 1
 ## Maandag 30 maart
 ### Wat heb ik vandaag gedaan? / Hoelang heb ik daarover gedaan?
-09.30-10.30 | 1uur | Vanmorgen kregen we uitleg over de opdracht.
-10.30-12.00 | 1,5uur | Daarna heb ik mij verdiept in de opdracht om voor mezelf een duidelijk beeld te vormen, ideeën gegenereerd en nagedacht over wat ik morgen uit de eerste test wil halen.
-12.00-12.30 | 30min | Onderzoek gedaan naar keydown functie in javascript en dat begrijpen.
-12.30-13.30 | 1uur | Pauze. 
-13.30-15.00 | 1,5uur | Eerste javascript functies geprobeerd om annotaties aan een zin toe te voegen. Nu nog elke zin in een aparte p met een id. Doel is om iets te maken waarmee ik morgen mijn idee kan testen bij Roger.
-15.00-16.00 | 1uur | Voorbereiden Weekly Geek.
-16.00-16.10 | 10min | Checkout met Melvin.
+- 09.30-10.30 | 1uur | Vanmorgen kregen we uitleg over de opdracht.
+- 10.30-12.00 | 1,5uur | Daarna heb ik mij verdiept in de opdracht om voor mezelf een duidelijk beeld te vormen, ideeën gegenereerd en nagedacht over wat ik morgen uit de eerste test wil halen.
+- 12.00-12.30 | 30min | Onderzoek gedaan naar keydown functie in javascript en dat begrijpen.
+- 12.30-13.30 | 1uur | Pauze. 
+- 13.30-15.00 | 1,5uur | Eerste javascript functies geprobeerd om annotaties aan een zin toe te voegen. Nu nog elke zin in een aparte p met een id. Doel is om iets te maken waarmee ik morgen mijn idee kan testen bij Roger.
+- 15.00-16.00 | 1uur | Voorbereiden Weekly Geek.
+- 16.00-16.10 | 10min | Checkout met Melvin.
 
 ### Wat heb ik vandaag geleerd?
 Ik heb geleerd hoe een keydown functie werkt en ben meer aan het leren over het gebruik van de screenreader.
