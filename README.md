@@ -202,29 +202,41 @@ Aanpassing > Ook een sneltoets laten kiezen voor het switchen zodat hij zich erv
 
 ## Prototype 3
 ### Schermafbeeldingen prototype 3
-1<img width="1710" height="835" alt="Scherm­afbeelding 2026-04-20 om 11 23 46" src="https://github.com/user-attachments/assets/fc662704-69d0-479a-8be4-b5dd404d04e8" />
+Bij openen website
+<img width="1710" height="835" alt="Scherm­afbeelding 2026-04-20 om 11 23 46" src="https://github.com/user-attachments/assets/fc662704-69d0-479a-8be4-b5dd404d04e8" />
 
-2<img width="1710" height="835" alt="Scherm­afbeelding 2026-04-20 om 11 23 53" src="https://github.com/user-attachments/assets/fef36102-9f24-4d9d-bcd5-95fc66ae8d7a" />
+Notitietoets kiezen + bevestigen
+<img width="1710" height="835" alt="Scherm­afbeelding 2026-04-20 om 11 23 53" src="https://github.com/user-attachments/assets/fef36102-9f24-4d9d-bcd5-95fc66ae8d7a" />
 
-3<img width="1710" height="835" alt="Scherm­afbeelding 2026-04-20 om 11 24 01" src="https://github.com/user-attachments/assets/b1966a6a-bac7-42dc-a83c-a49eda808436" />
+Notitietoets opgeslagen
+<img width="1710" height="835" alt="Scherm­afbeelding 2026-04-20 om 11 24 01" src="https://github.com/user-attachments/assets/b1966a6a-bac7-42dc-a83c-a49eda808436" />
 
-4<img width="1710" height="835" alt="Scherm­afbeelding 2026-04-20 om 11 24 11" src="https://github.com/user-attachments/assets/67df0fb6-87a8-4548-8fad-8c8347e3a46d" />
+Switchtoets kiezen + bevestigen
+<img width="1710" height="835" alt="Scherm­afbeelding 2026-04-20 om 11 24 11" src="https://github.com/user-attachments/assets/67df0fb6-87a8-4548-8fad-8c8347e3a46d" />
 
-5<img width="1710" height="835" alt="Scherm­afbeelding 2026-04-20 om 11 24 35" src="https://github.com/user-attachments/assets/ff1c7ba9-9f5e-4e09-8a72-70f32f013680" />
+Switchtoets opgeslagen
+<img width="1710" height="835" alt="Scherm­afbeelding 2026-04-20 om 11 24 35" src="https://github.com/user-attachments/assets/ff1c7ba9-9f5e-4e09-8a72-70f32f013680" />
 
-6<img width="1710" height="835" alt="Scherm­afbeelding 2026-04-20 om 11 24 41" src="https://github.com/user-attachments/assets/6b621fb3-3a90-47f3-9720-8a2024045e16" />
+Configuratie compleet
+<img width="1710" height="835" alt="Scherm­afbeelding 2026-04-20 om 11 24 41" src="https://github.com/user-attachments/assets/6b621fb3-3a90-47f3-9720-8a2024045e16" />
 
-7<img width="1710" height="835" alt="Scherm­afbeelding 2026-04-20 om 11 24 56" src="https://github.com/user-attachments/assets/fcc8607c-cbe4-463d-9920-c5b5e3dd7341" />
+Focus quote
+<img width="1710" height="835" alt="Scherm­afbeelding 2026-04-20 om 11 24 56" src="https://github.com/user-attachments/assets/fcc8607c-cbe4-463d-9920-c5b5e3dd7341" />
 
-8<img width="1710" height="835" alt="Scherm­afbeelding 2026-04-20 om 11 28 37" src="https://github.com/user-attachments/assets/2b69080a-fa7a-4f52-bdf0-ea9788bc1487" />
+Notitie maken
+<img width="1710" height="835" alt="Scherm­afbeelding 2026-04-20 om 11 28 37" src="https://github.com/user-attachments/assets/2b69080a-fa7a-4f52-bdf0-ea9788bc1487" />
 
-9<img width="1710" height="835" alt="Scherm­afbeelding 2026-04-20 om 11 28 44" src="https://github.com/user-attachments/assets/224a6d73-808e-49e7-9d49-639ea4e536f3" />
+Notitie typen
+<img width="1710" height="835" alt="Scherm­afbeelding 2026-04-20 om 11 28 44" src="https://github.com/user-attachments/assets/224a6d73-808e-49e7-9d49-639ea4e536f3" />
 
-10<img width="1710" height="835" alt="Scherm­afbeelding 2026-04-20 om 11 29 03" src="https://github.com/user-attachments/assets/e4cb7c9a-a080-47d6-898b-385eabeead8c" />
+Focus notitie met quote
+<img width="1710" height="835" alt="Scherm­afbeelding 2026-04-20 om 11 29 03" src="https://github.com/user-attachments/assets/e4cb7c9a-a080-47d6-898b-385eabeead8c" />
 
-11<img width="1710" height="835" alt="Scherm­afbeelding 2026-04-20 om 11 29 10" src="https://github.com/user-attachments/assets/b305fd2f-bf00-4d9f-8a90-6aac4793d324" />
+Focus notitie
+<img width="1710" height="835" alt="Scherm­afbeelding 2026-04-20 om 11 29 10" src="https://github.com/user-attachments/assets/b305fd2f-bf00-4d9f-8a90-6aac4793d324" />
 
-12<img width="1710" height="835" alt="Scherm­afbeelding 2026-04-20 om 11 28 56" src="https://github.com/user-attachments/assets/0070e4ed-2bf3-47ab-8115-58d2481428e6" />
+Focus volgende quote
+<img width="1710" height="835" alt="Scherm­afbeelding 2026-04-20 om 11 28 56" src="https://github.com/user-attachments/assets/0070e4ed-2bf3-47ab-8115-58d2481428e6" />
 
 ### Testresultaten (test 3) en aanpassingen (voor prototype 4)
 Test observatie > Groep aan het eind van elke zin verwarde hem en hij bleef door luisteren tot het standaard “Je bevindt je nu op een… om dit veld te verlaten, toets ctrl command shift + pijl omhoog”.
