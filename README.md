@@ -26,9 +26,9 @@ Naast het feit dat Roger’s zicht verslechtert en hij een screenreader nodig he
 
 
 # Weekblog
-# Week 1
-## Maandag 30 maart
-### Wat heb ik vandaag gedaan? / Hoelang heb ik daarover gedaan?
+## Week 1
+### Maandag 30 maart
+#### Wat heb ik vandaag gedaan? / Hoelang heb ik daarover gedaan?
 - 09.30-10.30 | 1uur | Vanmorgen kregen we uitleg over de opdracht.
 - 10.30-12.00 | 1,5uur | Daarna heb ik mij verdiept in de opdracht om voor mezelf een duidelijk beeld te vormen, ideeën gegenereerd en nagedacht over wat ik morgen uit de eerste test wil halen.
 - 12.00-12.30 | 30min | Onderzoek gedaan naar keydown functie in javascript en dat begrijpen.
@@ -37,30 +37,30 @@ Naast het feit dat Roger’s zicht verslechtert en hij een screenreader nodig he
 - 15.00-16.00 | 1uur | Voorbereiden Weekly Geek.
 - 16.00-16.10 | 10min | Checkout met Melvin.
 
-### Wat heb ik vandaag geleerd?
+#### Wat heb ik vandaag geleerd?
 Ik heb geleerd hoe een keydown functie werkt en ben meer aan het leren over het gebruik van de screenreader.
 
-### Wat ga ik morgen doen?
+#### Wat ga ik morgen doen?
 Morgen ga ik verder met het uitwerken van mijn eerste iteratie. Daarvoor wil ik eerst beter begrip hebben van hoe de screenreader werkt. Daarnaast zijn de annotaties nu meteen weg als de pagina refresht en dat doet ie regelmatig uit zichzelf dus daar wil ik mij ook even in verdiepen.
 
-## Dinsdag 31 maart
-### Wat heb ik vandaag gedaan? / Hoelang heb ik daarover gedaan?
+### Dinsdag 31 maart
+#### Wat heb ik vandaag gedaan? / Hoelang heb ik daarover gedaan?
 - 09.30-10.15 | 45min | Weekly Geek wooclap quiz.
 - 10.15-12.00 | 1uur 45min | Wat styling toegevoegd (werkt wat fijner), achtergrond kleur toegevoegd om te testen of Roger dat ziet en daar iets aan heeft, local storage toegevoegd zodat annotaties opgeslagen worden, onderzoek gedaan naar focus van het systeem vs focus van voice over.
 - 12.00-12.30 | 30min | Pauze. 
 - 12.30-14.00 | 1,5uur | Gewerkt aan hoe de focus verspringt na het maken van een annotatie en de flow van de test, meer testvragen bedacht, voorbereid op de test.
 - 14.00-16.00 | 2uur | Testen met Roger.
 
-### Wat heb ik vandaag geleerd?
+#### Wat heb ik vandaag geleerd?
 Ik heb mij vandaag iets meer geprobeerd te verdiepen in de screenreader en hoe dat in zijn werking gaat. Daarnaast heb ik geleerd hoe local storage werkt.
 
-### Wat ga ik de volgende keer doen?
+#### Wat ga ik de volgende keer doen?
 De volgende keer ga ik een nieuwe iteratie van mijn prototype maken waarin ik de inzichten uit de eerste test mee ga nemen.
 
 
-# Week 2
-## Maandag 6 april
-### Wat heb ik vandaag gedaan? / Hoelang heb ik daarover gedaan?
+## Week 2
+### Maandag 6 april
+#### Wat heb ik vandaag gedaan? / Hoelang heb ik daarover gedaan?
 - 09.30-10.30 | 1uur | Intro van de dag
 - 10.30-12.30 | 2uur | Design verbeteringen: 2 kolommen, dark mode, geel/zwarte focus
 - 12.30-13.30 | 1uur | Pauze. 
@@ -68,54 +68,54 @@ De volgende keer ga ik een nieuwe iteratie van mijn prototype maken waarin ik de
 - 15.00-16.00 | 1uur | Voorbereiden Weekly Geek.
 - 16.00-16.10 | 10min | Checkout
 
-### Wat heb ik vandaag geleerd?
+#### Wat heb ik vandaag geleerd?
 Ik heb vandaag vooral aan de layout/styling gewerkt.
 
-### Wat ga ik morgen doen?
+#### Wat ga ik morgen doen?
 Morgen ga zorgen dat de navigatie beter werkt, zowel in de kolommen zelf als het wisselen daartussen & uitleg over sneltoetsenbediening afmaken.
 
-## Dinsdag 7 april
-### Wat heb ik vandaag gedaan? / Hoelang heb ik daarover gedaan?
+### Dinsdag 7 april
+#### Wat heb ik vandaag gedaan? / Hoelang heb ik daarover gedaan?
 - 09.30-10.30 | 1uur | Intro van de dag
 - 10.30-12.30 | 2uur | Switchen tussen kolommen en navigeren verbeteren
 - 12.30-13.30 | 1uur | Pauze. 
 - 13.30-14.00 | 30min | Laatste dingetjes
 - 14.00-16.00 | 2uur | Test 2 met Roger
 
-### Wat heb ik vandaag geleerd?
+#### Wat heb ik vandaag geleerd?
 Vandaag heb ik vooral kleine dingetjes gedaan en niet echt veel nieuwe dingen gedaan.
 
-### Wat ga ik de volgende keer doen?
+#### Wat ga ik de volgende keer doen?
 Mijn prototype weer verbeteren op basis van de testresultaten.
 
 
-# Week 3
-## Maandag 13 april
-### Wat heb ik vandaag gedaan? / Hoelang heb ik daarover gedaan?
+## Week 3
+### Maandag 13 april
+#### Wat heb ik vandaag gedaan? / Hoelang heb ik daarover gedaan?
 - Toevoegen van het zelf instellen van de sneltoetsen
 
-### Wat heb ik vandaag geleerd?
+#### Wat heb ik vandaag geleerd?
 Hoe ik Roger zelf sneltoetsen kan laten instellen.
 
-### Wat ga ik morgen doen?
+#### Wat ga ik morgen doen?
 Morgen ga ik bugs in deze configuratie fixen en kijken wat ik verder kan doen om de ervaring voor Roger te optimaliseren.
 
-## Dinsdag 14 april
-### Wat heb ik vandaag gedaan? / Hoelang heb ik daarover gedaan?
+### Dinsdag 14 april
+#### Wat heb ik vandaag gedaan? / Hoelang heb ik daarover gedaan?
 - Bug fixes
 - Styling verbeterd: vergrotende tekst, visuele clue dat er een notitie is bij een quote, focus styling
 - Test 3 met Roger (2uur)
 
-### Wat heb ik vandaag geleerd?
+#### Wat heb ik vandaag geleerd?
 Ik heb vandaag niet echt nieuwe dingen geleerd.
 
-### Wat ga ik de volgende keer doen?
+#### Wat ga ik de volgende keer doen?
 Mijn prototype verder optimaliseren op basis van de test.
 
 
-# Week 4
-## Maandag 20 april
-### Wat heb ik vandaag gedaan? / Hoelang heb ik daarover gedaan?
+## Week 4
+### Maandag 20 april
+#### Wat heb ik vandaag gedaan? / Hoelang heb ik daarover gedaan?
 - 09.30-10.30 | 1uur | Intro van de dag
 - 10.30-11.30 | 1uur | Betere comments bij mijn js code zetten
 - 11.30-12.30 | 1uur | Uitspraak Roger aangepast in voice over programma, plan gemaakt van wat ik wil aanpassen voor de laatste test,
@@ -124,38 +124,41 @@ Mijn prototype verder optimaliseren op basis van de test.
 - 15.00-16.00 | 1uur | Voorbereiden Weekly Geek.
 - 16.00-16.10 | 10min | Checkout met [naam].
 
-### Wat heb ik vandaag geleerd?
+#### Wat heb ik vandaag geleerd?
 Niet per se iets dat echt nieuw was, maar ik heb voor het eerst een uitspraak aangepast in het voice over programma en gezorgd dat de voice over iets opleest uit een random lijstje met opmerkingen
 
-### Wat ga ik morgen doen?
+#### Wat ga ik morgen doen?
 Morgen ga ik wat laatste bug fixes doen en voorbereiden op de laatste test
 
-## Dinsdag 21 april
-### Wat heb ik vandaag gedaan? / Hoelang heb ik daarover gedaan?
+### Dinsdag 21 april
+#### Wat heb ik vandaag gedaan? / Hoelang heb ik daarover gedaan?
 - 09.30-10.30 | 1uur | Intro van de dag
 - 10.30-12.30 | 2uur | Bug fixes, kleine aanpassingen
 - 12.30-13.30 | 1uur | Pauze. 
 - 13.30-14.00 | 30min | Uploaden github
 - 14.00-16.00 | 2uur | Test met Roger
 
-### Wat heb ik vandaag geleerd?
+#### Wat heb ik vandaag geleerd?
 Ik heb vandaag niks nieuws gedaan :)
 
-### Wat ga ik de volgende keer doen?
+#### Wat ga ik de volgende keer doen?
 Mijn laatste testresultaten verwerken in aanbevelingen, ReadMe updaten met alle testresultaten
 
 # Overzicht ontwikkeling prototypes o.b.v. de testresultaten
 
 ## Prototype 1
 ### Schermafbeeldingen prototype 1
+Beginscherm
+<img width="1710" height="822" alt="Scherm­afbeelding 2026-04-06 om 12 21 21" src="https://github.com/user-attachments/assets/c04fe787-4a98-4628-beec-d4731e5a1086" />
 
-<img width="1710" height="822" alt="Scherm­afbeelding 2026-04-06 om 12 21 54" src="https://github.com/user-attachments/assets/8d3dd511-bcc9-440a-bef9-2eabd3c195c5" />
-
-<img width="1710" height="822" alt="Scherm­afbeelding 2026-04-06 om 12 21 39" src="https://github.com/user-attachments/assets/14034315-a261-419d-b90d-062cd53b0cc4" />
-
+Focus op quote
 <img width="1710" height="822" alt="Scherm­afbeelding 2026-04-06 om 12 21 30" src="https://github.com/user-attachments/assets/702a5ef7-69e0-4f5c-8511-959a338a00b3" />
 
-<img width="1710" height="822" alt="Scherm­afbeelding 2026-04-06 om 12 21 21" src="https://github.com/user-attachments/assets/c04fe787-4a98-4628-beec-d4731e5a1086" />
+Annotatie maken
+<img width="1710" height="822" alt="Scherm­afbeelding 2026-04-06 om 12 21 39" src="https://github.com/user-attachments/assets/14034315-a261-419d-b90d-062cd53b0cc4" />
+
+Focus op annotatie
+<img width="1710" height="822" alt="Scherm­afbeelding 2026-04-06 om 12 21 54" src="https://github.com/user-attachments/assets/8d3dd511-bcc9-440a-bef9-2eabd3c195c5" />
 
 ### Testresultaten (test 1) en aanpassingen (voor prototype 2)
 Test observatie > Roger werkt het liefst in een word document en wil zijn notities naast de juiste tekst zien. Daarnaast heeft hij voorkeur voor dark modus.
@@ -172,18 +175,23 @@ Aanpassing > Notitie formulier simpeler gemaakt; concept & tag veld weggehaald, 
 
 ## Prototype 2
 ### Schermafbeeldingen prototype 2
-
-<img width="1710" height="473" alt="Scherm­afbeelding 2026-04-14 om 09 27 32" src="https://github.com/user-attachments/assets/962a643e-3a4f-4d93-8931-d722a70e2364" />
-
+Focus nog niet op sneltoetsenuitleg
 <img width="1710" height="481" alt="Scherm­afbeelding 2026-04-14 om 09 26 23" src="https://github.com/user-attachments/assets/1bcd2342-6cc2-4a85-86dd-9bbf1fb002d8" />
 
-<img width="1710" height="832" alt="Scherm­afbeelding 2026-04-14 om 09 27 17" src="https://github.com/user-attachments/assets/3dab3ecb-dae2-471f-8d52-708e8a07f96e" />
+Focus op sneltoetsenuitleg
+<img width="1710" height="473" alt="Scherm­afbeelding 2026-04-14 om 09 27 32" src="https://github.com/user-attachments/assets/962a643e-3a4f-4d93-8931-d722a70e2364" />
 
+Nog geen focus op quotes
+<img width="1710" height="832" alt="Scherm­afbeelding 2026-04-14 om 09 26 35" src="https://github.com/user-attachments/assets/1dac499b-93d4-45a7-9a98-39b97f2fd3eb" />
+
+Focus op quote
 <img width="1710" height="832" alt="Scherm­afbeelding 2026-04-14 om 09 27 02" src="https://github.com/user-attachments/assets/5866c46f-ced5-4af5-b52b-f3b0e9ad3d1f" />
 
-<img width="1710" height="832" alt="Scherm­afbeelding 2026-04-14 om 09 26 52" src="https://github.com/user-attachments/assets/d6a7837c-82c4-4c29-8124-d9ef715a64bf" />
+Notitie maken
+<img width="1710" height="832" alt="Scherm­afbeelding 2026-04-14 om 09 27 17" src="https://github.com/user-attachments/assets/3dab3ecb-dae2-471f-8d52-708e8a07f96e" />
 
-<img width="1710" height="832" alt="Scherm­afbeelding 2026-04-14 om 09 26 35" src="https://github.com/user-attachments/assets/1dac499b-93d4-45a7-9a98-39b97f2fd3eb" />
+Focus op notitie
+<img width="1710" height="832" alt="Scherm­afbeelding 2026-04-14 om 09 26 52" src="https://github.com/user-attachments/assets/d6a7837c-82c4-4c29-8124-d9ef715a64bf" />
 
 ### Testresultaten (test 2) en aanpassingen (voor prototype 3)
 Test observatie > Oplezen van de sneltoetsen had geen duidelijke introductie en ging te snel. Hierdoor had Roger niet door wat er gebeurde, dacht hij dat hij in een navigatiemenu zat en ontstond er onduidelijkheid. Toen hij het eenmaal doorhad lukte het wel, maar hij moest de sneltoets (a) wel de hele tijd zoeken, dit leek niet logisch voor hem.
@@ -194,34 +202,29 @@ Aanpassing > Ook een sneltoets laten kiezen voor het switchen zodat hij zich erv
 
 ## Prototype 3
 ### Schermafbeeldingen prototype 3
+1<img width="1710" height="835" alt="Scherm­afbeelding 2026-04-20 om 11 23 46" src="https://github.com/user-attachments/assets/fc662704-69d0-479a-8be4-b5dd404d04e8" />
 
-<img width="1710" height="835" alt="Scherm­afbeelding 2026-04-20 om 11 29 10" src="https://github.com/user-attachments/assets/b305fd2f-bf00-4d9f-8a90-6aac4793d324" />
+2<img width="1710" height="835" alt="Scherm­afbeelding 2026-04-20 om 11 23 53" src="https://github.com/user-attachments/assets/fef36102-9f24-4d9d-bcd5-95fc66ae8d7a" />
 
-<img width="1710" height="835" alt="Scherm­afbeelding 2026-04-20 om 11 29 03" src="https://github.com/user-attachments/assets/e4cb7c9a-a080-47d6-898b-385eabeead8c" />
+3<img width="1710" height="835" alt="Scherm­afbeelding 2026-04-20 om 11 24 01" src="https://github.com/user-attachments/assets/b1966a6a-bac7-42dc-a83c-a49eda808436" />
 
-<img width="1710" height="835" alt="Scherm­afbeelding 2026-04-20 om 11 28 56" src="https://github.com/user-attachments/assets/0070e4ed-2bf3-47ab-8115-58d2481428e6" />
+4<img width="1710" height="835" alt="Scherm­afbeelding 2026-04-20 om 11 24 11" src="https://github.com/user-attachments/assets/67df0fb6-87a8-4548-8fad-8c8347e3a46d" />
 
-<img width="1710" height="835" alt="Scherm­afbeelding 2026-04-20 om 11 28 44" src="https://github.com/user-attachments/assets/224a6d73-808e-49e7-9d49-639ea4e536f3" />
+5<img width="1710" height="835" alt="Scherm­afbeelding 2026-04-20 om 11 24 35" src="https://github.com/user-attachments/assets/ff1c7ba9-9f5e-4e09-8a72-70f32f013680" />
 
-<img width="1710" height="835" alt="Scherm­afbeelding 2026-04-20 om 11 28 37" src="https://github.com/user-attachments/assets/2b69080a-fa7a-4f52-bdf0-ea9788bc1487" />
+6<img width="1710" height="835" alt="Scherm­afbeelding 2026-04-20 om 11 24 41" src="https://github.com/user-attachments/assets/6b621fb3-3a90-47f3-9720-8a2024045e16" />
 
-<img width="1710" height="835" alt="Scherm­afbeelding 2026-04-20 om 11 25 25" src="https://github.com/user-attachments/assets/6bececdf-7995-4752-b29c-029852bf8af8" />
+7<img width="1710" height="835" alt="Scherm­afbeelding 2026-04-20 om 11 24 56" src="https://github.com/user-attachments/assets/fcc8607c-cbe4-463d-9920-c5b5e3dd7341" />
 
-<img width="1710" height="835" alt="Scherm­afbeelding 2026-04-20 om 11 24 56" src="https://github.com/user-attachments/assets/fcc8607c-cbe4-463d-9920-c5b5e3dd7341" />
+8<img width="1710" height="835" alt="Scherm­afbeelding 2026-04-20 om 11 28 37" src="https://github.com/user-attachments/assets/2b69080a-fa7a-4f52-bdf0-ea9788bc1487" />
 
-<img width="1710" height="835" alt="Scherm­afbeelding 2026-04-20 om 11 24 41" src="https://github.com/user-attachments/assets/6b621fb3-3a90-47f3-9720-8a2024045e16" />
+9<img width="1710" height="835" alt="Scherm­afbeelding 2026-04-20 om 11 28 44" src="https://github.com/user-attachments/assets/224a6d73-808e-49e7-9d49-639ea4e536f3" />
 
-<img width="1710" height="835" alt="Scherm­afbeelding 2026-04-20 om 11 24 35" src="https://github.com/user-attachments/assets/ff1c7ba9-9f5e-4e09-8a72-70f32f013680" />
+10<img width="1710" height="835" alt="Scherm­afbeelding 2026-04-20 om 11 29 03" src="https://github.com/user-attachments/assets/e4cb7c9a-a080-47d6-898b-385eabeead8c" />
 
-<img width="1710" height="835" alt="Scherm­afbeelding 2026-04-20 om 11 24 26" src="https://github.com/user-attachments/assets/b1c839ef-04ed-410c-9345-ed736944d79e" />
+11<img width="1710" height="835" alt="Scherm­afbeelding 2026-04-20 om 11 29 10" src="https://github.com/user-attachments/assets/b305fd2f-bf00-4d9f-8a90-6aac4793d324" />
 
-<img width="1710" height="835" alt="Scherm­afbeelding 2026-04-20 om 11 24 11" src="https://github.com/user-attachments/assets/67df0fb6-87a8-4548-8fad-8c8347e3a46d" />
-
-<img width="1710" height="835" alt="Scherm­afbeelding 2026-04-20 om 11 24 01" src="https://github.com/user-attachments/assets/b1966a6a-bac7-42dc-a83c-a49eda808436" />
-
-<img width="1710" height="835" alt="Scherm­afbeelding 2026-04-20 om 11 23 53" src="https://github.com/user-attachments/assets/fef36102-9f24-4d9d-bcd5-95fc66ae8d7a" />
-
-<img width="1710" height="835" alt="Scherm­afbeelding 2026-04-20 om 11 23 46" src="https://github.com/user-attachments/assets/fc662704-69d0-479a-8be4-b5dd404d04e8" />
+12<img width="1710" height="835" alt="Scherm­afbeelding 2026-04-20 om 11 28 56" src="https://github.com/user-attachments/assets/0070e4ed-2bf3-47ab-8115-58d2481428e6" />
 
 ### Testresultaten (test 3) en aanpassingen (voor prototype 4)
 Test observatie > Groep aan het eind van elke zin verwarde hem en hij bleef door luisteren tot het standaard “Je bevindt je nu op een… om dit veld te verlaten, toets ctrl command shift + pijl omhoog”.
@@ -236,16 +239,20 @@ Aanpassing > Bij openen notitie formulier leest de screenreader “Typ uw notiti
 Opdracht eis > Add nonsense
 Aanpassing > Persoonlijke feedback zinnen met een filosofisch randje & confetti na het maken van 3 notities.
 
+
 ## Prototype 4
 ### Schermafbeeldingen prototype 4
+Bij openen website
+<img width="1709" height="922" alt="Scherm­afbeelding 2026-04-30 om 20 47 29" src="https://github.com/user-attachments/assets/1c3adf8f-fe79-4825-b3e5-1d293939a01c" />
 
-<img width="1709" height="922" alt="Scherm­afbeelding 2026-04-30 om 20 48 47" src="https://github.com/user-attachments/assets/a4a0b50c-cb00-45ba-9ce9-d249f925e227" />
-
-<img width="1709" height="922" alt="Scherm­afbeelding 2026-04-30 om 20 48 44" src="https://github.com/user-attachments/assets/36e6f39a-3ce2-4c3c-8f1e-650997ec8934" />
-
+Na configuratie, voordat de focus op de quotes komt
 <img width="1709" height="922" alt="Scherm­afbeelding 2026-04-30 om 20 48 19" src="https://github.com/user-attachments/assets/d4470188-0684-441e-87db-bf5b217c19a9" />
 
-<img width="1709" height="922" alt="Scherm­afbeelding 2026-04-30 om 20 47 29" src="https://github.com/user-attachments/assets/1c3adf8f-fe79-4825-b3e5-1d293939a01c" />
+Focus notitie
+<img width="1709" height="922" alt="Scherm­afbeelding 2026-04-30 om 20 48 44" src="https://github.com/user-attachments/assets/36e6f39a-3ce2-4c3c-8f1e-650997ec8934" />
+
+Confetti
+<img width="1709" height="922" alt="Scherm­afbeelding 2026-04-30 om 20 48 47" src="https://github.com/user-attachments/assets/a4a0b50c-cb00-45ba-9ce9-d249f925e227" />
 
 ### Testresultaten (test 4)
 - Flow werkt goed, Roger navigeert er soepel doorheen
